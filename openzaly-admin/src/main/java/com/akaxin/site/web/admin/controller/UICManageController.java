@@ -37,7 +37,7 @@ import org.springframework.web.servlet.ModelAndView;
 import com.akaxin.common.utils.GsonUtils;
 import com.akaxin.proto.core.PluginProto;
 import com.akaxin.site.business.impl.site.SiteConfig;
-import com.akaxin.site.storage.bean.UicBean;
+import com.windchat.im.storage.bean.UicBean;
 import com.akaxin.site.web.admin.service.IUICService;
 
 //邀请码管理

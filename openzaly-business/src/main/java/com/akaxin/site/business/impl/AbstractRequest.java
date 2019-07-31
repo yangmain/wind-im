@@ -16,18 +16,11 @@
 package com.akaxin.site.business.impl;
 
 import java.lang.reflect.Method;
-import java.sql.SQLException;
 
-import com.akaxin.site.business.dao.SiteUserDao;
 import com.akaxin.site.business.dao.UserGroupDao;
 import com.akaxin.site.business.dao.UserProfileDao;
-import com.akaxin.site.message.dao.ImUserGroupDao;
-import com.akaxin.site.message.dao.ImUserProfileDao;
-import com.akaxin.site.storage.api.IUserProfileDao;
-import com.akaxin.site.storage.bean.GroupProfileBean;
-import com.akaxin.site.storage.bean.SimpleUserBean;
-import com.akaxin.site.storage.bean.UserProfileBean;
-import com.akaxin.site.storage.service.UserProfileDaoService;
+import com.windchat.im.storage.bean.GroupProfileBean;
+import com.windchat.im.storage.bean.SimpleUserBean;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

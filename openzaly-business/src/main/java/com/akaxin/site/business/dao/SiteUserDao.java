@@ -5,8 +5,8 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.site.storage.api.ISiteUsersDao;
-import com.akaxin.site.storage.service.SiteUsersDaoService;
+import com.windchat.im.storage.api.ISiteUsersDao;
+import com.windchat.im.storage.service.SiteUsersDaoService;
 
 /**
  * 获取站点数据库信息，例如所有用户

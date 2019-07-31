@@ -28,8 +28,8 @@ import com.akaxin.common.constant.ErrorCode2;
 import com.akaxin.common.logs.LogUtils;
 import com.akaxin.proto.client.ImStcPsnProto;
 import com.akaxin.proto.site.ImSyncFinishProto;
-import com.akaxin.site.storage.api.IMessageDao;
-import com.akaxin.site.storage.service.MessageDaoService;
+import com.windchat.im.storage.api.IMessageDao;
+import com.windchat.im.storage.service.MessageDaoService;
 
 /**
  * 客户端同步消息完成结束标志

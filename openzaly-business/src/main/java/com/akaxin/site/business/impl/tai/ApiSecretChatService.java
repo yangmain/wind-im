@@ -29,9 +29,9 @@ import com.akaxin.proto.core.DeviceProto;
 import com.akaxin.proto.site.ApiSecretChatApplyU2Proto;
 import com.akaxin.site.business.impl.AbstractRequest;
 import com.akaxin.site.business.impl.site.SiteConfig;
-import com.akaxin.site.storage.api.IUserDeviceDao;
-import com.akaxin.site.storage.bean.UserDeviceBean;
-import com.akaxin.site.storage.service.DeviceDaoService;
+import com.windchat.im.storage.api.IUserDeviceDao;
+import com.windchat.im.storage.bean.UserDeviceBean;
+import com.windchat.im.storage.service.DeviceDaoService;
 
 /**
  * 用户开启二人／群聊 绝密聊天

@@ -54,13 +54,13 @@ import com.akaxin.site.business.impl.notice.User2Notice;
 import com.akaxin.site.business.impl.site.PlatformUserPhone;
 import com.akaxin.site.business.impl.site.SiteConfig;
 import com.akaxin.site.business.impl.site.UserUic;
-import com.akaxin.site.storage.api.IUserDeviceDao;
-import com.akaxin.site.storage.bean.ApplyFriendBean;
-import com.akaxin.site.storage.bean.SimpleUserBean;
-import com.akaxin.site.storage.bean.UserDeviceBean;
-import com.akaxin.site.storage.bean.UserProfileBean;
-import com.akaxin.site.storage.bean.UserSessionBean;
-import com.akaxin.site.storage.service.DeviceDaoService;
+import com.windchat.im.storage.api.IUserDeviceDao;
+import com.windchat.im.storage.bean.ApplyFriendBean;
+import com.windchat.im.storage.bean.SimpleUserBean;
+import com.windchat.im.storage.bean.UserDeviceBean;
+import com.windchat.im.storage.bean.UserProfileBean;
+import com.windchat.im.storage.bean.UserSessionBean;
+import com.windchat.im.storage.service.DeviceDaoService;
 
 /**
  * 获取站点信息 <br>

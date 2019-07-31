@@ -35,7 +35,7 @@ import com.akaxin.site.message.dao.ImUserProfileDao;
 import com.akaxin.site.message.push.PushClient;
 import com.akaxin.site.message.threads.MultiPushThreadExecutor;
 import com.akaxin.site.message.utils.SiteConfigHelper;
-import com.akaxin.site.storage.bean.SimpleUserBean;
+import com.windchat.im.storage.bean.SimpleUserBean;
 import com.google.protobuf.ByteString;
 
 public class UserPushHandler extends AbstractU2Handler<Command> {

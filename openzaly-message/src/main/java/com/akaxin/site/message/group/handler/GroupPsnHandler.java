@@ -29,8 +29,8 @@ import com.akaxin.common.constant.ErrorCode2;
 import com.akaxin.common.logs.LogUtils;
 import com.akaxin.proto.client.ImStcPsnProto;
 import com.akaxin.site.message.dao.ImUserSessionDao;
-import com.akaxin.site.storage.api.IGroupDao;
-import com.akaxin.site.storage.service.GroupDaoService;
+import com.windchat.im.storage.api.IGroupDao;
+import com.windchat.im.storage.service.GroupDaoService;
 
 public class GroupPsnHandler extends AbstractGroupHandler<Command> {
 	private static final Logger logger = LoggerFactory.getLogger(GroupPsnHandler.class);

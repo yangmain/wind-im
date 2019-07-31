@@ -29,7 +29,7 @@ import com.akaxin.proto.site.ImCtsMessageProto;
 import com.akaxin.site.business.constant.NoticeText;
 import com.akaxin.site.message.api.IMessageService;
 import com.akaxin.site.message.service.ImMessageService;
-import com.akaxin.site.storage.bean.ApplyFriendBean;
+import com.windchat.im.storage.bean.ApplyFriendBean;
 import com.google.protobuf.ByteString;
 
 public class User2Notice {

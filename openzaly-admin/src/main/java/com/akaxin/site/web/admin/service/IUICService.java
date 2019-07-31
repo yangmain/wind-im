@@ -2,7 +2,7 @@ package com.akaxin.site.web.admin.service;
 
 import java.util.List;
 
-import com.akaxin.site.storage.bean.UicBean;
+import com.windchat.im.storage.bean.UicBean;
 
 public interface IUICService {
 

@@ -33,9 +33,9 @@ import com.akaxin.common.utils.StringHelper;
 import com.akaxin.proto.core.CoreProto;
 import com.akaxin.site.business.service.ApiRequestService;
 import com.akaxin.site.connector.constant.AkxProject;
-import com.akaxin.site.storage.api.IUserSessionDao;
-import com.akaxin.site.storage.bean.SimpleAuthBean;
-import com.akaxin.site.storage.service.UserSessionDaoService;
+import com.windchat.im.storage.api.IUserSessionDao;
+import com.windchat.im.storage.bean.SimpleAuthBean;
+import com.windchat.im.storage.service.UserSessionDaoService;
 import com.google.protobuf.ByteString;
 
 import io.netty.channel.Channel;

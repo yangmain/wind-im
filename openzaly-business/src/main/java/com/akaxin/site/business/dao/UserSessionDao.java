@@ -22,8 +22,8 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.site.storage.api.IUserSessionDao;
-import com.akaxin.site.storage.service.UserSessionDaoService;
+import com.windchat.im.storage.api.IUserSessionDao;
+import com.windchat.im.storage.service.UserSessionDaoService;
 
 public class UserSessionDao {
 	private static final Logger logger = LoggerFactory.getLogger(UserSessionDao.class);

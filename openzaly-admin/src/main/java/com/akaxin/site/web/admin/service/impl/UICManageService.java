@@ -23,7 +23,7 @@ import org.springframework.stereotype.Service;
 
 import com.akaxin.proto.core.UicProto.UicStatus;
 import com.akaxin.site.business.dao.SiteUicDao;
-import com.akaxin.site.storage.bean.UicBean;
+import com.windchat.im.storage.bean.UicBean;
 import com.akaxin.site.web.admin.service.IUICService;
 
 @Service

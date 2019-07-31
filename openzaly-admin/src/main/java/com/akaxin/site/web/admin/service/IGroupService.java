@@ -2,9 +2,9 @@ package com.akaxin.site.web.admin.service;
 
 import java.util.List;
 
-import com.akaxin.site.storage.bean.GroupMemberBean;
-import com.akaxin.site.storage.bean.GroupProfileBean;
-import com.akaxin.site.storage.bean.SimpleGroupBean;
+import com.windchat.im.storage.bean.GroupMemberBean;
+import com.windchat.im.storage.bean.GroupProfileBean;
+import com.windchat.im.storage.bean.SimpleGroupBean;
 
 /**
  * 

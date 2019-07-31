@@ -27,17 +27,17 @@ import org.slf4j.LoggerFactory;
 import com.akaxin.common.utils.StringHelper;
 import com.akaxin.proto.core.GroupProto;
 import com.akaxin.site.business.impl.notice.GroupNotice;
-import com.akaxin.site.storage.api.IGroupDao;
-import com.akaxin.site.storage.api.IMessageDao;
-import com.akaxin.site.storage.api.IUserGroupDao;
-import com.akaxin.site.storage.bean.GroupMemberBean;
-import com.akaxin.site.storage.bean.GroupProfileBean;
-import com.akaxin.site.storage.bean.SimpleGroupBean;
-import com.akaxin.site.storage.bean.SimpleUserBean;
-import com.akaxin.site.storage.bean.UserGroupBean;
-import com.akaxin.site.storage.service.GroupDaoService;
-import com.akaxin.site.storage.service.MessageDaoService;
-import com.akaxin.site.storage.service.UserGroupDaoService;
+import com.windchat.im.storage.api.IGroupDao;
+import com.windchat.im.storage.api.IMessageDao;
+import com.windchat.im.storage.api.IUserGroupDao;
+import com.windchat.im.storage.bean.GroupMemberBean;
+import com.windchat.im.storage.bean.GroupProfileBean;
+import com.windchat.im.storage.bean.SimpleGroupBean;
+import com.windchat.im.storage.bean.SimpleUserBean;
+import com.windchat.im.storage.bean.UserGroupBean;
+import com.windchat.im.storage.service.GroupDaoService;
+import com.windchat.im.storage.service.MessageDaoService;
+import com.windchat.im.storage.service.UserGroupDaoService;
 
 /**
  * 用户群组群组相关数据源操作

@@ -19,13 +19,13 @@ import com.akaxin.common.utils.PrintUtils;
 import com.akaxin.common.utils.StringHelper;
 import com.akaxin.site.boot.config.ConfigHelper;
 import com.akaxin.site.boot.config.ConfigKey;
-import com.akaxin.site.storage.DataSourceManager;
-import com.akaxin.site.storage.dao.config.DBConfig;
-import com.akaxin.site.storage.dao.config.DBType;
-import com.akaxin.site.storage.dao.sql.SQLConst;
-import com.akaxin.site.storage.exception.MigrateDatabaseException;
-import com.akaxin.site.storage.exception.NeedInitMysqlException;
-import com.akaxin.site.storage.exception.UpgradeDatabaseException;
+import com.windchat.im.storage.DataSourceManager;
+import com.windchat.im.storage.dao.config.DBConfig;
+import com.windchat.im.storage.dao.config.DBType;
+import com.windchat.im.storage.dao.sql.SQLConst;
+import com.windchat.im.storage.exception.MigrateDatabaseException;
+import com.windchat.im.storage.exception.NeedInitMysqlException;
+import com.windchat.im.storage.exception.UpgradeDatabaseException;
 
 public class Helper {
 	private static final Logger logger = LoggerFactory.getLogger(Helper.class);

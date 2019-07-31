@@ -17,7 +17,6 @@ package com.akaxin.site.business.impl.hai;
 
 import java.util.List;
 
-import com.akaxin.site.business.impl.site.SiteConfig;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -42,9 +41,9 @@ import com.akaxin.proto.plugin.HaiGroupUpdateProto;
 import com.akaxin.site.business.constant.GroupConfig;
 import com.akaxin.site.business.dao.UserGroupDao;
 import com.akaxin.site.business.impl.AbstractRequest;
-import com.akaxin.site.storage.bean.GroupMemberBean;
-import com.akaxin.site.storage.bean.GroupProfileBean;
-import com.akaxin.site.storage.bean.SimpleGroupBean;
+import com.windchat.im.storage.bean.GroupMemberBean;
+import com.windchat.im.storage.bean.GroupProfileBean;
+import com.windchat.im.storage.bean.SimpleGroupBean;
 import com.google.protobuf.ProtocolStringList;
 
 /**

@@ -26,7 +26,7 @@ import com.akaxin.proto.core.UserProto;
 import com.akaxin.proto.site.ImCtsMessageProto;
 import com.akaxin.site.message.dao.ImUserFriendDao;
 import com.akaxin.site.message.dao.ImUserProfileDao;
-import com.akaxin.site.storage.bean.SimpleUserBean;
+import com.windchat.im.storage.bean.SimpleUserBean;
 
 /**
  * web消息检测

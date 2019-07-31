@@ -2,8 +2,8 @@ package com.akaxin.site.web.admin.service;
 
 import java.util.List;
 
-import com.akaxin.site.storage.bean.SimpleUserBean;
-import com.akaxin.site.storage.bean.UserProfileBean;
+import com.windchat.im.storage.bean.SimpleUserBean;
+import com.windchat.im.storage.bean.UserProfileBean;
 
 public interface IUserService {
 	// 获取用户profile

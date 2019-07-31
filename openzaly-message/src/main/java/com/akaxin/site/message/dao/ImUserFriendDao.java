@@ -20,8 +20,8 @@ import java.sql.SQLException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.site.storage.api.IUserFriendDao;
-import com.akaxin.site.storage.service.UserFriendDaoService;
+import com.windchat.im.storage.api.IUserFriendDao;
+import com.windchat.im.storage.service.UserFriendDaoService;
 
 /**
  * IM消息通信过程，判断用户之间的关系操作

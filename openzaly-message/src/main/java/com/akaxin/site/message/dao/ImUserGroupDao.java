@@ -21,12 +21,12 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.site.storage.api.IGroupDao;
-import com.akaxin.site.storage.api.IUserGroupDao;
-import com.akaxin.site.storage.bean.GroupMemberBean;
-import com.akaxin.site.storage.bean.GroupProfileBean;
-import com.akaxin.site.storage.service.GroupDaoService;
-import com.akaxin.site.storage.service.UserGroupDaoService;
+import com.windchat.im.storage.api.IGroupDao;
+import com.windchat.im.storage.api.IUserGroupDao;
+import com.windchat.im.storage.bean.GroupMemberBean;
+import com.windchat.im.storage.bean.GroupProfileBean;
+import com.windchat.im.storage.service.GroupDaoService;
+import com.windchat.im.storage.service.UserGroupDaoService;
 
 public class ImUserGroupDao {
 	private static final Logger logger = LoggerFactory.getLogger(ImUserGroupDao.class);

@@ -20,9 +20,9 @@ import org.slf4j.LoggerFactory;
 
 import com.akaxin.common.utils.StringHelper;
 import com.akaxin.site.connector.constant.AkxProject;
-import com.akaxin.site.storage.api.IPluginDao;
-import com.akaxin.site.storage.bean.PluginBean;
-import com.akaxin.site.storage.service.PluginServiceDao;
+import com.windchat.im.storage.api.IPluginDao;
+import com.windchat.im.storage.bean.PluginBean;
+import com.windchat.im.storage.service.PluginServiceDao;
 
 /**
  * @author Sam{@link an.guoyue254@gmail.com}

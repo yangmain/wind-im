@@ -2,7 +2,7 @@ package com.akaxin.site.web.admin.controller;
 
 import com.akaxin.common.utils.GsonUtils;
 import com.akaxin.proto.core.PluginProto;
-import com.akaxin.site.storage.bean.MonitorBean;
+import com.windchat.im.storage.bean.MonitorBean;
 import com.akaxin.site.web.admin.common.Timeutils;
 import com.akaxin.site.web.admin.exception.UserPermissionException;
 import com.akaxin.site.web.admin.service.IMonitorService;

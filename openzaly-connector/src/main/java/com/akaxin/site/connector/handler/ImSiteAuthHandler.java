@@ -34,7 +34,7 @@ import com.akaxin.proto.site.ImSiteHelloProto;
 import com.akaxin.site.business.impl.site.SiteConfig;
 import com.akaxin.site.connector.constant.AkxProject;
 import com.akaxin.site.connector.session.SessionManager;
-import com.akaxin.site.storage.bean.SimpleAuthBean;
+import com.windchat.im.storage.bean.SimpleAuthBean;
 
 import io.netty.channel.Channel;
 

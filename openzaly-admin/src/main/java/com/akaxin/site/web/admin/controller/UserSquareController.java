@@ -24,8 +24,8 @@ import com.akaxin.proto.core.UserProto;
 import com.akaxin.site.business.dao.UserFriendDao;
 import com.akaxin.site.business.impl.notice.User2Notice;
 import com.akaxin.site.business.push.PushNotification;
-import com.akaxin.site.storage.bean.SimpleUserBean;
-import com.akaxin.site.storage.bean.UserProfileBean;
+import com.windchat.im.storage.bean.SimpleUserBean;
+import com.windchat.im.storage.bean.UserProfileBean;
 import com.akaxin.site.web.admin.service.IUserService;
 import com.google.protobuf.InvalidProtocolBufferException;
 

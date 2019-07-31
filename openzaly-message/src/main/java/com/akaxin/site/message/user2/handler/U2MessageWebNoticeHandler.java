@@ -23,9 +23,9 @@ import com.akaxin.common.logs.LogUtils;
 import com.akaxin.proto.core.CoreProto;
 import com.akaxin.proto.site.ImCtsMessageProto;
 import com.akaxin.site.message.bean.WebBean;
-import com.akaxin.site.storage.api.IMessageDao;
-import com.akaxin.site.storage.bean.U2MessageBean;
-import com.akaxin.site.storage.service.MessageDaoService;
+import com.windchat.im.storage.api.IMessageDao;
+import com.windchat.im.storage.bean.U2MessageBean;
+import com.windchat.im.storage.service.MessageDaoService;
 
 public class U2MessageWebNoticeHandler extends AbstractU2Handler<Command> {
 	private static final Logger logger = LoggerFactory.getLogger(U2MessageWebNoticeHandler.class);

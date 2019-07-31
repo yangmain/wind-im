@@ -21,11 +21,11 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.site.storage.api.IUserDeviceDao;
-import com.akaxin.site.storage.api.IUserProfileDao;
-import com.akaxin.site.storage.bean.SimpleUserBean;
-import com.akaxin.site.storage.service.DeviceDaoService;
-import com.akaxin.site.storage.service.UserProfileDaoService;
+import com.windchat.im.storage.api.IUserDeviceDao;
+import com.windchat.im.storage.api.IUserProfileDao;
+import com.windchat.im.storage.bean.SimpleUserBean;
+import com.windchat.im.storage.service.DeviceDaoService;
+import com.windchat.im.storage.service.UserProfileDaoService;
 
 /**
  * 

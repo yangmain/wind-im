@@ -23,10 +23,10 @@ import org.slf4j.LoggerFactory;
 import com.akaxin.common.command.Command;
 import com.akaxin.common.logs.LogUtils;
 import com.akaxin.proto.site.ImSyncMsgStatusProto;
-import com.akaxin.site.storage.api.IMessageDao;
-import com.akaxin.site.storage.bean.GroupMessageBean;
-import com.akaxin.site.storage.bean.U2MessageBean;
-import com.akaxin.site.storage.service.MessageDaoService;
+import com.windchat.im.storage.api.IMessageDao;
+import com.windchat.im.storage.bean.GroupMessageBean;
+import com.windchat.im.storage.bean.U2MessageBean;
+import com.windchat.im.storage.service.MessageDaoService;
 
 /**
  * 

@@ -26,8 +26,8 @@ import com.akaxin.proto.core.UserProto;
 import com.akaxin.proto.site.ImCtsMessageProto;
 import com.akaxin.site.message.dao.ImUserGroupDao;
 import com.akaxin.site.message.dao.ImUserProfileDao;
-import com.akaxin.site.storage.bean.GroupProfileBean;
-import com.akaxin.site.storage.bean.SimpleUserBean;
+import com.windchat.im.storage.bean.GroupProfileBean;
+import com.windchat.im.storage.bean.SimpleUserBean;
 
 /**
  * <pre>

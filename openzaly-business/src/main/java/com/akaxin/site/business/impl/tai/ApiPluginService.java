@@ -42,7 +42,7 @@ import com.akaxin.proto.site.ApiPluginProxyProto;
 import com.akaxin.site.business.dao.SitePluginDao;
 import com.akaxin.site.business.impl.AbstractRequest;
 import com.akaxin.site.business.impl.site.SiteConfig;
-import com.akaxin.site.storage.bean.PluginBean;
+import com.windchat.im.storage.bean.PluginBean;
 import com.google.protobuf.ByteString;
 
 /**

@@ -36,11 +36,11 @@ import com.akaxin.proto.core.CoreProto.MsgType;
 import com.akaxin.proto.site.ImSyncMessageProto;
 import com.akaxin.site.message.bean.WebBean;
 import com.akaxin.site.message.utils.NumUtils;
-import com.akaxin.site.storage.api.IGroupDao;
-import com.akaxin.site.storage.api.IMessageDao;
-import com.akaxin.site.storage.bean.GroupMessageBean;
-import com.akaxin.site.storage.service.GroupDaoService;
-import com.akaxin.site.storage.service.MessageDaoService;
+import com.windchat.im.storage.api.IGroupDao;
+import com.windchat.im.storage.api.IMessageDao;
+import com.windchat.im.storage.bean.GroupMessageBean;
+import com.windchat.im.storage.service.GroupDaoService;
+import com.windchat.im.storage.service.MessageDaoService;
 import com.google.protobuf.ByteString;
 
 import io.netty.channel.Channel;

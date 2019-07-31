@@ -21,9 +21,9 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.site.storage.api.IUicDao;
-import com.akaxin.site.storage.bean.UicBean;
-import com.akaxin.site.storage.service.UicDaoService;
+import com.windchat.im.storage.api.IUicDao;
+import com.windchat.im.storage.bean.UicBean;
+import com.windchat.im.storage.service.UicDaoService;
 
 public class SiteUicDao {
 	private static final Logger logger = LoggerFactory.getLogger(SiteUicDao.class);

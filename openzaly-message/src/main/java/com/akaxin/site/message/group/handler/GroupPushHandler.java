@@ -35,9 +35,9 @@ import com.akaxin.site.message.dao.ImUserProfileDao;
 import com.akaxin.site.message.push.PushClient;
 import com.akaxin.site.message.threads.MultiPushThreadExecutor;
 import com.akaxin.site.message.utils.SiteConfigHelper;
-import com.akaxin.site.storage.api.IGroupDao;
-import com.akaxin.site.storage.bean.GroupProfileBean;
-import com.akaxin.site.storage.service.GroupDaoService;
+import com.windchat.im.storage.api.IGroupDao;
+import com.windchat.im.storage.bean.GroupProfileBean;
+import com.windchat.im.storage.service.GroupDaoService;
 import com.google.protobuf.ByteString;
 
 /**

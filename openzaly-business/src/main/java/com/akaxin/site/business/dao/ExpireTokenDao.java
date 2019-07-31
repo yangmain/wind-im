@@ -20,9 +20,9 @@ import java.sql.SQLException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.site.storage.api.ITokenDao;
-import com.akaxin.site.storage.bean.ExpireToken;
-import com.akaxin.site.storage.service.TokenDaoService;
+import com.windchat.im.storage.api.ITokenDao;
+import com.windchat.im.storage.bean.ExpireToken;
+import com.windchat.im.storage.service.TokenDaoService;
 
 /**
  * 站点相关过期token操作

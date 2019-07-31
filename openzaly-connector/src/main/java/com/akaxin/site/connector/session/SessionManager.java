@@ -15,7 +15,7 @@
  */
 package com.akaxin.site.connector.session;
 
-import com.akaxin.site.storage.bean.SimpleAuthBean;
+import com.windchat.im.storage.bean.SimpleAuthBean;
 
 /**
  * 管理用户session，设置用户在线／离线状态。

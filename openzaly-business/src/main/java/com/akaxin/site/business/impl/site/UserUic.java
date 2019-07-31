@@ -21,7 +21,7 @@ import org.slf4j.LoggerFactory;
 
 import com.akaxin.proto.core.UicProto;
 import com.akaxin.site.business.dao.SiteUicDao;
-import com.akaxin.site.storage.bean.UicBean;
+import com.windchat.im.storage.bean.UicBean;
 
 /**
  * 用户邀请码管理实现

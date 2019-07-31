@@ -20,17 +20,15 @@ import java.sql.SQLException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.site.storage.api.IUserDeviceDao;
-import com.akaxin.site.storage.api.IUserProfileDao;
-import com.akaxin.site.storage.api.IUserSessionDao;
-import com.akaxin.site.storage.bean.UserDeviceBean;
-import com.akaxin.site.storage.bean.UserProfileBean;
-import com.akaxin.site.storage.bean.UserSessionBean;
-import com.akaxin.site.storage.service.DeviceDaoService;
-import com.akaxin.site.storage.service.UserProfileDaoService;
-import com.akaxin.site.storage.service.UserSessionDaoService;
-
-import javax.transaction.TransactionRequiredException;
+import com.windchat.im.storage.api.IUserDeviceDao;
+import com.windchat.im.storage.api.IUserProfileDao;
+import com.windchat.im.storage.api.IUserSessionDao;
+import com.windchat.im.storage.bean.UserDeviceBean;
+import com.windchat.im.storage.bean.UserProfileBean;
+import com.windchat.im.storage.bean.UserSessionBean;
+import com.windchat.im.storage.service.DeviceDaoService;
+import com.windchat.im.storage.service.UserProfileDaoService;
+import com.windchat.im.storage.service.UserSessionDaoService;
 
 /**
  * 用户登陆使用dao，负责用户信息入库

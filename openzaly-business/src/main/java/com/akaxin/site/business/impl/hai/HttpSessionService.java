@@ -33,10 +33,10 @@ import com.akaxin.proto.core.UserProto;
 import com.akaxin.proto.plugin.HaiSessionProfileProto;
 import com.akaxin.site.business.dao.UserProfileDao;
 import com.akaxin.site.business.impl.AbstractRequest;
-import com.akaxin.site.storage.api.IUserSessionDao;
-import com.akaxin.site.storage.bean.SimpleAuthBean;
-import com.akaxin.site.storage.bean.UserProfileBean;
-import com.akaxin.site.storage.service.UserSessionDaoService;
+import com.windchat.im.storage.api.IUserSessionDao;
+import com.windchat.im.storage.bean.SimpleAuthBean;
+import com.windchat.im.storage.bean.UserProfileBean;
+import com.windchat.im.storage.service.UserSessionDaoService;
 
 /**
  * <pre>

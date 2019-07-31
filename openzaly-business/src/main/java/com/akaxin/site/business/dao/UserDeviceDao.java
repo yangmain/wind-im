@@ -21,9 +21,9 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.site.storage.api.IUserDeviceDao;
-import com.akaxin.site.storage.bean.UserDeviceBean;
-import com.akaxin.site.storage.service.DeviceDaoService;
+import com.windchat.im.storage.api.IUserDeviceDao;
+import com.windchat.im.storage.bean.UserDeviceBean;
+import com.windchat.im.storage.service.DeviceDaoService;
 
 public class UserDeviceDao {
 	private static final Logger logger = LoggerFactory.getLogger(UserDeviceDao.class);

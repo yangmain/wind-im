@@ -30,7 +30,6 @@ import com.akaxin.common.constant.IErrorCode;
 import com.akaxin.common.exceptions.ZalyException2;
 import com.akaxin.common.logs.LogUtils;
 import com.akaxin.common.utils.StringHelper;
-import com.akaxin.common.utils.UserIdUtils;
 import com.akaxin.common.utils.ValidatorPattern;
 import com.akaxin.proto.core.UserProto;
 import com.akaxin.proto.site.ApiUserMuteProto;
@@ -41,8 +40,8 @@ import com.akaxin.proto.site.ApiUserUpdateProfileProto;
 import com.akaxin.site.business.dao.UserFriendDao;
 import com.akaxin.site.business.dao.UserProfileDao;
 import com.akaxin.site.business.impl.AbstractRequest;
-import com.akaxin.site.storage.bean.UserFriendBean;
-import com.akaxin.site.storage.bean.UserProfileBean;
+import com.windchat.im.storage.bean.UserFriendBean;
+import com.windchat.im.storage.bean.UserProfileBean;
 
 /**
  * 用户个人自身资料相关功能

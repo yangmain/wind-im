@@ -5,7 +5,7 @@ import org.apache.commons.lang3.StringUtils;
 import com.akaxin.common.utils.StringHelper;
 import com.akaxin.site.business.dao.UserProfileDao;
 import com.akaxin.site.business.impl.site.SiteConfig;
-import com.akaxin.site.storage.bean.SimpleUserBean;
+import com.windchat.im.storage.bean.SimpleUserBean;
 
 /**
  * 

@@ -34,9 +34,9 @@ import com.akaxin.proto.core.CoreProto;
 import com.akaxin.proto.core.CoreProto.MsgType;
 import com.akaxin.proto.site.ImSyncMessageProto;
 import com.akaxin.site.message.utils.NumUtils;
-import com.akaxin.site.storage.api.IMessageDao;
-import com.akaxin.site.storage.bean.U2MessageBean;
-import com.akaxin.site.storage.service.MessageDaoService;
+import com.windchat.im.storage.api.IMessageDao;
+import com.windchat.im.storage.bean.U2MessageBean;
+import com.windchat.im.storage.service.MessageDaoService;
 import com.google.protobuf.ByteString;
 
 import io.netty.channel.Channel;

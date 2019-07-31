@@ -25,8 +25,8 @@ import com.akaxin.proto.client.ImStcMessageProto;
 import com.akaxin.proto.core.CoreProto;
 import com.akaxin.proto.core.CoreProto.MsgType;
 import com.akaxin.proto.site.ImCtsMessageProto;
-import com.akaxin.site.storage.api.IMessageDao;
-import com.akaxin.site.storage.service.MessageDaoService;
+import com.windchat.im.storage.api.IMessageDao;
+import com.windchat.im.storage.service.MessageDaoService;
 
 import io.netty.channel.Channel;
 

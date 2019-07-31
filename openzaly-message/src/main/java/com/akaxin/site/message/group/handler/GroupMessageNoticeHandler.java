@@ -22,9 +22,9 @@ import com.akaxin.common.command.Command;
 import com.akaxin.common.logs.LogUtils;
 import com.akaxin.proto.core.CoreProto;
 import com.akaxin.proto.site.ImCtsMessageProto;
-import com.akaxin.site.storage.api.IMessageDao;
-import com.akaxin.site.storage.bean.GroupMessageBean;
-import com.akaxin.site.storage.service.MessageDaoService;
+import com.windchat.im.storage.api.IMessageDao;
+import com.windchat.im.storage.bean.GroupMessageBean;
+import com.windchat.im.storage.service.MessageDaoService;
 
 /**
  * 群通知消息

@@ -34,7 +34,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.akaxin.common.utils.StringHelper;
 import com.akaxin.proto.core.PluginProto;
-import com.akaxin.site.storage.bean.PluginBean;
+import com.windchat.im.storage.bean.PluginBean;
 import com.akaxin.site.web.admin.exception.UserPermissionException;
 import com.akaxin.site.web.admin.service.IPluginService;
 import com.google.protobuf.InvalidProtocolBufferException;

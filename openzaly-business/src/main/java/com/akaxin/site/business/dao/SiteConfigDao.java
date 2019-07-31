@@ -22,8 +22,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.akaxin.proto.core.ConfigProto.ConfigKey;
-import com.akaxin.site.storage.api.ISiteConfigDao;
-import com.akaxin.site.storage.service.SiteConfigDaoService;
+import com.windchat.im.storage.api.ISiteConfigDao;
+import com.windchat.im.storage.service.SiteConfigDaoService;
 
 /**
  * 站点配置，供业务逻辑使用

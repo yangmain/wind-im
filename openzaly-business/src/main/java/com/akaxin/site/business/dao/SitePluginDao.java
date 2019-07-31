@@ -22,9 +22,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.akaxin.proto.core.PluginProto;
-import com.akaxin.site.storage.api.IPluginDao;
-import com.akaxin.site.storage.bean.PluginBean;
-import com.akaxin.site.storage.service.PluginServiceDao;
+import com.windchat.im.storage.api.IPluginDao;
+import com.windchat.im.storage.bean.PluginBean;
+import com.windchat.im.storage.service.PluginServiceDao;
 
 public class SitePluginDao {
     private static final Logger logger = LoggerFactory.getLogger(SitePluginDao.class);

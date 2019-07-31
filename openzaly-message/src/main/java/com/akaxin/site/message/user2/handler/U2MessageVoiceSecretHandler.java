@@ -22,9 +22,9 @@ import com.akaxin.common.command.Command;
 import com.akaxin.common.logs.LogUtils;
 import com.akaxin.proto.core.CoreProto;
 import com.akaxin.proto.site.ImCtsMessageProto;
-import com.akaxin.site.storage.api.IMessageDao;
-import com.akaxin.site.storage.bean.U2MessageBean;
-import com.akaxin.site.storage.service.MessageDaoService;
+import com.windchat.im.storage.api.IMessageDao;
+import com.windchat.im.storage.bean.U2MessageBean;
+import com.windchat.im.storage.service.MessageDaoService;
 
 /**
  * 二人加密语音

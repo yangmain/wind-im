@@ -31,7 +31,7 @@ import com.akaxin.proto.site.ApiDeviceListProto;
 import com.akaxin.proto.site.ApiDeviceProfileProto;
 import com.akaxin.site.business.dao.UserDeviceDao;
 import com.akaxin.site.business.impl.AbstractRequest;
-import com.akaxin.site.storage.bean.UserDeviceBean;
+import com.windchat.im.storage.bean.UserDeviceBean;
 
 /**
  * 

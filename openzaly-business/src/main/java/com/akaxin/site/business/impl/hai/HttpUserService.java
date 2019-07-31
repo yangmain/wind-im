@@ -42,9 +42,9 @@ import com.akaxin.site.business.dao.UserProfileDao;
 import com.akaxin.site.business.impl.AbstractRequest;
 import com.akaxin.site.business.utils.FilePathUtils;
 import com.akaxin.site.business.utils.FileServerUtils;
-import com.akaxin.site.storage.bean.SimpleGroupBean;
-import com.akaxin.site.storage.bean.SimpleUserBean;
-import com.akaxin.site.storage.bean.UserProfileBean;
+import com.windchat.im.storage.bean.SimpleGroupBean;
+import com.windchat.im.storage.bean.SimpleUserBean;
+import com.windchat.im.storage.bean.UserProfileBean;
 import com.google.protobuf.ByteString;
 
 /**

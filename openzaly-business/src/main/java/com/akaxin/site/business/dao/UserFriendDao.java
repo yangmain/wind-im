@@ -23,14 +23,14 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.akaxin.proto.core.UserProto;
-import com.akaxin.site.storage.api.IFriendApplyDao;
-import com.akaxin.site.storage.api.IUserFriendDao;
-import com.akaxin.site.storage.bean.ApplyFriendBean;
-import com.akaxin.site.storage.bean.ApplyUserBean;
-import com.akaxin.site.storage.bean.SimpleUserBean;
-import com.akaxin.site.storage.bean.UserFriendBean;
-import com.akaxin.site.storage.service.FriendApplyDaoService;
-import com.akaxin.site.storage.service.UserFriendDaoService;
+import com.windchat.im.storage.api.IFriendApplyDao;
+import com.windchat.im.storage.api.IUserFriendDao;
+import com.windchat.im.storage.bean.ApplyFriendBean;
+import com.windchat.im.storage.bean.ApplyUserBean;
+import com.windchat.im.storage.bean.SimpleUserBean;
+import com.windchat.im.storage.bean.UserFriendBean;
+import com.windchat.im.storage.service.FriendApplyDaoService;
+import com.windchat.im.storage.service.UserFriendDaoService;
 
 /**
  * 用户好友相关操作
