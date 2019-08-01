@@ -12,14 +12,14 @@
     </organization>
 
     <modules>
-        <module>openzaly-boot</module>
-        <module>openzaly-connector</module>
-        <module>openzaly-business</module>
-        <module>openzaly-message</module>
-        <module>openzaly-protobuf</module>
-        <module>openzaly-storage</module>
-        <module>openzaly-common</module>
-        <module>openzaly-admin</module>
+        <module>windchat-boot</module>
+        <module>windchat-connector</module>
+        <module>windchat-business</module>
+        <module>windchat-message</module>
+        <module>windchat-protobuf</module>
+        <module>windchat-storage</module>
+        <module>windchat-common</module>
+        <module>windchat-admin</module>
     </modules>
 
     <properties>
