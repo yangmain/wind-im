@@ -6,8 +6,8 @@
         <artifactId>windchat</artifactId>
         <version>0.0.1</version>
     </parent>
-    <groupId>com.akaxin.proto</groupId>
-    <artifactId>openzaly-protobuf</artifactId>
+    <groupId>com.windchat.proto</groupId>
+    <artifactId>windchat-protobuf</artifactId>
     <version>0.0.1-RELEASE</version>
 
     <properties>
