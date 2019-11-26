@@ -6,8 +6,7 @@
 
 **源码仓库**
 
-> * **Github**: https://github.com/akaxincom/openzaly
-> * `国内快` Gitee: https://gitee.com/wind-chat/wind-im.git
+> * **Git地址**: https://gitee.com/wind-chat/wind-im.git
 
 
 
