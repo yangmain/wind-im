@@ -9,8 +9,6 @@
 </p>
 
 
-![输入图片说明](https://images.gitee.com/uploads/images/2019/1126/104323_210ea786_1566564.png "屏幕截图.png")
-
 [风信](https://www.akaxin.com)
 ====
 
@@ -21,12 +19,6 @@
 > * **Github**: https://github.com/akaxincom/openzaly
 > * `国内快` Gitee: https://gitee.com/wind-chat/wind-im.git
 
-_
-
-**向我们提问**
-
-> 扫码加微信群：
-![输入图片说明](https://images.gitee.com/uploads/images/2019/1126/104323_210ea786_1566564.png "屏幕截图.png")
 
 
 简介
@@ -165,3 +157,10 @@ Akaxin 具有灵活、强大的扩展机制 `(“管理平台” 就是一个扩
 * Mino0885
 * 505541778
 ![输入图片说明](https://images.gitee.com/uploads/images/2019/1126/104319_6cab3aa7_1566564.png "屏幕截图.png")
+
+
+
+**向我们提问**
+
+> 扫码加微信群：
+![输入图片说明](https://images.gitee.com/uploads/images/2019/1126/104323_210ea786_1566564.png "屏幕截图.png")
