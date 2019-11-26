@@ -1,13 +1,3 @@
-<p align="right">
-  <a href="https://gitee.com/wind-chat/wind-im/blob/master/README.md">
-    <img
-      alt="WindChat"
-      src="https://avatars3.githubusercontent.com/u/32624098?s=200&v=4"
-      width="128"
-    />
-  </a>
-</p>
-
 
 [WindChat-风信](https://gitee.com/wind-chat/wind-im/blob/master/README.md)
 ====
