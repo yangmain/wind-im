@@ -1,5 +1,5 @@
 <p align="right">
-  <a href="https://www.akaxin.com/">
+  <a href="https://gitee.com/wind-chat/wind-im/blob/master/README.md">
     <img
       alt="WindChat"
       src="https://avatars3.githubusercontent.com/u/32624098?s=200&v=4"
@@ -9,7 +9,7 @@
 </p>
 
 
-[风信](https://www.akaxin.com)
+[WindChat-风信](https://gitee.com/wind-chat/wind-im/blob/master/README.md)
 ====
 
 [![License](https://img.shields.io/badge/license-apache2-blue.svg)](LICENSE)
@@ -45,14 +45,7 @@ WindChat 是一款开源免费私有IM聊天软件，原身是Akaxin即时通讯
 
 **1. 启动服务器**
 
-  * **最新版本: openzaly 1.0.7**
-    * 国内镜像：https://cdn-akaxin-1255552447.cos.ap-beijing.myqcloud.com/openzaly/openzaly-server.jar
-    * Github下载: https://github.com/akaxincom/openzaly/releases/
-
-  * **Changelog**
-    * openzaly发布team版本，同时支持个人版与team版。
-    * team 版本支持使用mysql数据库，并且可配置主从库。
-    * openzaly使用ssl与平台交互增加了信息传输的安全性。
+    * git clone https://gitee.com/wind-chat/wind-im.git
     
     
 openzlay 0.10.6开始支持personal（个人版）与team版，默认状态下使用personal
@@ -116,13 +109,15 @@ openzaly Team版本 命令：
 二、源码编译安装
 ----
 
-需要本地有mvn，直接使用mvn编译即可。
+- 本地安装Java1.8+
+- 需要本地有mvn，直接使用mvn编译即可。
+
 
 
 三、扩展开发
 ----
 
-Akaxin 具有灵活、强大的扩展机制 `(“管理平台” 就是一个扩展)`。通过嵌入WEB页面，与后端的扩展API进行交互， 可以很轻松的构建丰富的业务功能，如：
+WindChat 具有灵活、强大的扩展机制 `(“管理平台” 就是一个扩展)`。通过嵌入WEB页面，与后端的扩展API进行交互， 可以很轻松的构建丰富的业务功能，如：
 
 * 附近交友
 * 店铺点评
@@ -147,7 +142,7 @@ Akaxin 具有灵活、强大的扩展机制 `(“管理平台” 就是一个扩
 
 > 以加入时间排序
 
-* sisishiliu
+* sisishiliu（Akaxin/DuckChat创始人）
 * SAM2O2O
 * childeYin
 * yi.chao
