@@ -2,6 +2,9 @@
 [WindChat-风信](https://gitee.com/wind-chat/wind-im/blob/master/README.md)
 ====
 
+![输入图片说明](https://images.gitee.com/uploads/images/2019/1126/115843_2f02f697_1566564.png "屏幕截图.png")
+
+
 [![License](https://img.shields.io/badge/license-apache2-blue.svg)](LICENSE)
 
 **源码仓库**
