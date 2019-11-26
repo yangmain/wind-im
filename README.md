@@ -1,7 +1,7 @@
 <p align="right">
   <a href="https://www.akaxin.com/">
     <img
-      alt="Akaxin"
+      alt="WindChat"
       src="https://avatars3.githubusercontent.com/u/32624098?s=200&v=4"
       width="128"
     />
@@ -9,7 +9,9 @@
 </p>
 
 
-[Akaxin](https://www.akaxin.com)
+![输入图片说明](https://images.gitee.com/uploads/images/2019/1126/104323_210ea786_1566564.png "屏幕截图.png")
+
+[风信](https://www.akaxin.com)
 ====
 
 [![License](https://img.shields.io/badge/license-apache2-blue.svg)](LICENSE)
@@ -17,19 +19,20 @@
 **源码仓库**
 
 > * **Github**: https://github.com/akaxincom/openzaly
-> * `国内快` Gitee: https://gitee.com/akaxin/openzaly
+> * `国内快` Gitee: https://gitee.com/wind-chat/wind-im.git
 
 _
 
 **向我们提问**
 
-> QQ群：`655249600`
+> 扫码加微信群：
+![输入图片说明](https://images.gitee.com/uploads/images/2019/1126/104323_210ea786_1566564.png "屏幕截图.png")
 
 
 简介
 ----
 
-Akaxin 是一款开源免费的私有聊天软件，可以部署在任意服务器上，搭建自己的聊天服务器，供自己与朋友、用户使用。
+WindChat 是一款开源免费私有IM聊天软件，原身是Akaxin即时通讯开源软件，由原开发者SAM2O2O个人维护，主要面向企业定制IM。
 
 特性：
 
@@ -41,7 +44,7 @@ Akaxin 是一款开源免费的私有聊天软件，可以部署在任意服务�
 
 
 <p align="center">
-  <img align="center" src="https://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/5f/56/82/5f56825f-5a1d-751a-76ee-e4af3337133c/pr_source.png/0x0ss.jpg" width="200"  /> &nbsp; <img align="center" src="https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/0a/13/7f/0a137f45-a89e-57d6-3135-5c72b219b28d/pr_source.png/0x0ss.jpg" width="200"  /> &nbsp; <img align="center" src="https://is1-ssl.mzstatic.com/image/thumb/Purple128/v4/45/ec/0a/45ec0a96-6683-049e-139b-f11aaea306c8/pr_source.png/0x0ss.jpg" width="200"  /> &nbsp;
+  <img align="center" src="https://images.gitee.com/uploads/images/2019/1126/104318_e96d4636_1566564.jpeg" width="200"  /> &nbsp; <img align="center" src="https://images.gitee.com/uploads/images/2019/1126/104318_3d9b5edb_1566564.jpeg" width="200"  /> &nbsp; <img align="center" src="https://images.gitee.com/uploads/images/2019/1126/104318_3751606d_1566564.jpeg" width="200"  /> &nbsp;
 </p>
 
 
@@ -161,3 +164,4 @@ Akaxin 具有灵活、强大的扩展机制 `(“管理平台” 就是一个扩
 * alexfanchina
 * Mino0885
 * 505541778
+![输入图片说明](https://images.gitee.com/uploads/images/2019/1126/104319_6cab3aa7_1566564.png "屏幕截图.png")
