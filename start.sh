@@ -23,8 +23,8 @@ PID=$(ps -ef|grep $JAVA_JAR|grep $PORT |head -1| awk '{printf $2}')
 
 ###if server is running, exit and echo error
 if [ $PID > 0 ]; then
-    echo "[ERROR] windchat is running [PID:"$PID"]"
-    echo "[ERROR] windchat start failure"
+    echo "[ERROR] WindChat is running [PID:"$PID"]"
+    echo "[ERROR] WindChat start failure"
     echo ""
     exit
 fi
@@ -34,10 +34,10 @@ java -Dsite.port=$PORT -Dhttp.port=$PORT2 -jar openzaly-server.jar >>stdout.log 
 PID=$(ps -ef|grep $JAVA_JAR|grep $PORT |head -1| awk '{printf $2}')
 
 if [ $? -eq 0 ]; then
-    echo "[OK] openzaly-server tcp-port:"$PORT",http-port:$PORT2,PID:$PID"
-    echo "[OK] openzaly-server is started successfully  [PID:"$PID"]"
+    echo "[OK] WindChat tcp-port:"$PORT",http-port:$PORT2,PID:$PID"
+    echo "[OK] WindChat is started successfully  [PID:"$PID"]"
 else
-    echo "[ERROR] openzaly-server is started failed"
+    echo "[ERROR] WindChat is started failed"
     echo "exit..."
     echo ""
     exit

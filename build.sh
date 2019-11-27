@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # ----------------------------------------------------------------------------
-# Copyright 2018-2028 Akaxin Group
+# Copyright 2018-2028 WindChat Group
 #
 # Licensed to the Apache Software Foundation (ASF) under one
 # or more contributor license agreements.  See the NOTICE file
@@ -24,4 +24,4 @@
 
 cd `dirname $0`
 mvn -T 2C clean package
-cp openzaly-boot/target/openzaly-boot-*-SNAPSHOT.jar openzaly-server.jar
+cp windchat-boot/target/windchat-boot-*-SNAPSHOT.jar windchat-server.jar

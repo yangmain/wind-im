@@ -6,9 +6,9 @@
 *.iml
 target/
 .DS_Store
-openzalyDB.sqlite3
-stdout.log
-openzaly-server.jar
+*.sqlite3
+*.log
+windchat-server.jar
 site-file/
 site-logs/
 openzaly-server.config
