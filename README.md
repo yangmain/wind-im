@@ -42,17 +42,17 @@ WindChat 是一款开源免费私有IM聊天软件，原身是Akaxin即时通讯
     
 openzlay 0.10.6开始支持personal（个人版）与team版，默认状态下使用personal
 
-支持的启动参数：`java -jar openzaly-server.jar -h`
+支持的启动参数：`java -jar windchat-server.jar -h`
 
 openzaly Personal版本 命令：
 
-    * 版本升级：`java -jar openzaly-server.jar -upgrade` ，此命令在服务与sqlite数据库版本不一致时执行，正常情况无需执行
+    * 版本升级：`java -jar windchat-server.jar -upgrade` ，此命令在服务与sqlite数据库版本不一致时执行，正常情况无需执行
 
-    * 启动命令：`java -jar openzaly-server.jar`
+    * 启动命令：`java -jar windchat-server.jar`
     
 openzaly Team版本 命令：
     
-    * 生成Team版本所需配置模版：`java -jar openzaly-server.jar -team`
+    * 生成Team版本所需配置模版：`java -jar windchat-server.jar -team`
     
     * 修改配置文件: 上一步会生成 openzaly-server.config 使用mysql数据库需在openzaly-server.config配置文件中配置mysql参数：
                 主库（数据库编码需要设置utf8mb4）：
@@ -76,9 +76,9 @@ openzaly Team版本 命令：
                         `openzaly.sqlite.url=openzalyDB.sqlite3` 这里指定sqlite数据库文件的位置
                      
                      继续执行迁移命令：
-                        `java -jar openzaly-server.jar -migrate`
+                        `java -jar windchat-server.jar -migrate`
         
-     * 启动命令：`java -jar openzaly-server.jar`      
+     * 启动命令：`java -jar windchat-server.jar`      
         
 
 **2. 下载客户端**
