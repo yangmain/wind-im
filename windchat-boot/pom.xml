@@ -6,7 +6,7 @@
         <artifactId>windchat</artifactId>
         <version>0.0.1</version>
     </parent>
-    <groupId>com.akaxin.site</groupId>
+    <groupId>com.windchat.im</groupId>
     <artifactId>windchat-boot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
@@ -24,7 +24,7 @@
                 <version>2.0.2.RELEASE</version>
                 <configuration>
                     <!-- 指定该Main Class为全局的唯一入口 -->
-                    <mainClass>com.akaxin.site.boot.main.Bootstrap</mainClass>
+                    <mainClass>com.windchat.im.boot.main.Bootstrap</mainClass>
                     <layout>ZIP</layout>
                     <!-- 热部署生效必须加 -->
                     <fork>true</fork>
@@ -46,7 +46,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.akaxin.site.boot.main.Bootstrap</mainClass>
+                            <mainClass>Bootstrap</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
