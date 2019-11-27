@@ -24,9 +24,9 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.utils.StringHelper;
+import com.windchat.common.utils.StringHelper;
 import com.akaxin.proto.core.GroupProto;
-import com.akaxin.site.business.impl.notice.GroupNotice;
+import com.windchat.im.business.impl.notice.GroupNotice;
 import com.windchat.im.storage.api.IGroupDao;
 import com.windchat.im.storage.api.IMessageDao;
 import com.windchat.im.storage.api.IUserGroupDao;

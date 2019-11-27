@@ -15,7 +15,7 @@
  */
 package com.windchat.common.netty;
 
-import com.akaxin.common.command.RedisCommand;
+import com.windchat.common.command.RedisCommand;
 import com.windchat.common.command.RedisCommand;
 
 /**

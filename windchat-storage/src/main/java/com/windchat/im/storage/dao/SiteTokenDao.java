@@ -23,7 +23,7 @@ import java.sql.SQLException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.logs.LogUtils;
+import com.windchat.common.logs.LogUtils;
 import com.windchat.im.storage.bean.ExpireToken;
 import com.windchat.im.storage.connection.DatabaseConnection;
 import com.windchat.im.storage.dao.sql.SQLConst;

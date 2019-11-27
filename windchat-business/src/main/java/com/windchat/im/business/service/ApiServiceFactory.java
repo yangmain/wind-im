@@ -18,16 +18,16 @@ package com.windchat.im.business.service;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.constant.RequestAction;
-import com.akaxin.site.business.impl.IRequestService;
-import com.akaxin.site.business.impl.tai.ApiDeviceService;
-import com.akaxin.site.business.impl.tai.ApiFileService;
-import com.akaxin.site.business.impl.tai.ApiFriendService;
-import com.akaxin.site.business.impl.tai.ApiGroupService;
-import com.akaxin.site.business.impl.tai.ApiPluginService;
-import com.akaxin.site.business.impl.tai.ApiSecretChatService;
-import com.akaxin.site.business.impl.tai.ApiSiteService;
-import com.akaxin.site.business.impl.tai.ApiUserService;
+import com.windchat.common.constant.RequestAction;
+import com.windchat.im.business.impl.IRequestService;
+import com.windchat.im.business.impl.tai.ApiDeviceService;
+import com.windchat.im.business.impl.tai.ApiFileService;
+import com.windchat.im.business.impl.tai.ApiFriendService;
+import com.windchat.im.business.impl.tai.ApiGroupService;
+import com.windchat.im.business.impl.tai.ApiPluginService;
+import com.windchat.im.business.impl.tai.ApiSecretChatService;
+import com.windchat.im.business.impl.tai.ApiSiteService;
+import com.windchat.im.business.impl.tai.ApiUserService;
 
 /**
  * API业务请求，分发工厂

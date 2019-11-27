@@ -29,8 +29,8 @@ import java.util.concurrent.TimeUnit;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.logs.LogUtils;
-import com.akaxin.common.utils.TimeFormats;
+import com.windchat.common.logs.LogUtils;
+import com.windchat.common.utils.TimeFormats;
 import com.windchat.im.storage.bean.GroupProfileBean;
 import com.windchat.im.storage.bean.SimpleGroupBean;
 import com.windchat.im.storage.connection.DatabaseConnection;

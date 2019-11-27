@@ -6,15 +6,15 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.constant.CommandConst;
-import com.akaxin.common.utils.StringHelper;
+import com.windchat.common.constant.CommandConst;
+import com.windchat.common.utils.StringHelper;
 import com.akaxin.proto.core.ConfigProto;
 import com.akaxin.proto.core.PushProto;
 import com.akaxin.proto.platform.ApiPushNotificationProto;
-import com.akaxin.site.message.dao.ImUserProfileDao;
-import com.akaxin.site.message.push.PushClient;
-import com.akaxin.site.message.threads.MultiPushThreadExecutor;
-import com.akaxin.site.message.utils.SiteConfigHelper;
+import com.windchat.im.message.dao.ImUserProfileDao;
+import com.windchat.im.message.push.PushClient;
+import com.windchat.im.message.threads.MultiPushThreadExecutor;
+import com.windchat.im.message.utils.SiteConfigHelper;
 
 public class PushNotification {
 	private static final Logger logger = LoggerFactory.getLogger(PushNotification.class);

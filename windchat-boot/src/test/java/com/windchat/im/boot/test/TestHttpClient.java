@@ -3,8 +3,8 @@ package com.windchat.im.boot.test;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.akaxin.common.http.ZalyHttpClient;
-import com.akaxin.common.utils.GsonUtils;
+import com.windchat.common.http.ZalyHttpClient;
+import com.windchat.common.utils.GsonUtils;
 
 public class TestHttpClient {
 	public static void main(String args[]) throws Exception {

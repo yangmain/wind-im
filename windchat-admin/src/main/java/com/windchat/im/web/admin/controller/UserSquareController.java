@@ -19,12 +19,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.akaxin.common.utils.GsonUtils;
+import com.windchat.common.utils.GsonUtils;
 import com.akaxin.proto.core.PluginProto;
 import com.akaxin.proto.core.UserProto;
-import com.akaxin.site.business.dao.UserFriendDao;
-import com.akaxin.site.business.impl.notice.User2Notice;
-import com.akaxin.site.business.push.PushNotification;
+import com.windchat.im.business.dao.UserFriendDao;
+import com.windchat.im.business.impl.notice.User2Notice;
+import com.windchat.im.business.push.PushNotification;
 import com.windchat.im.storage.bean.SimpleUserBean;
 import com.windchat.im.storage.bean.UserProfileBean;
 import com.google.protobuf.InvalidProtocolBufferException;

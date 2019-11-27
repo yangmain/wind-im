@@ -15,10 +15,10 @@
  */
 package com.windchat.im.connector.handler;
 
-import com.akaxin.common.command.CommandResponse;
-import com.akaxin.common.constant.CommandConst;
-import com.akaxin.common.constant.ErrorCode2;
-import com.akaxin.common.executor.chain.handler.IHandler;
+import com.windchat.common.command.CommandResponse;
+import com.windchat.common.constant.CommandConst;
+import com.windchat.common.constant.ErrorCode2;
+import com.windchat.common.executor.chain.handler.IHandler;
 
 import io.netty.channel.Channel;
 

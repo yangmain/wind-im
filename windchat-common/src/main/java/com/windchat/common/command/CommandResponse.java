@@ -18,8 +18,8 @@ package com.windchat.common.command;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.akaxin.common.constant.ErrorCode2;
-import com.akaxin.common.constant.IErrorCode;
+import com.windchat.common.constant.ErrorCode2;
+import com.windchat.common.constant.IErrorCode;
 
 /**
  * 

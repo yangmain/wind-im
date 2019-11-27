@@ -1,6 +1,6 @@
 package com.windchat.im.storage.bean;
 
-import com.akaxin.common.utils.GsonUtils;
+import com.windchat.common.utils.GsonUtils;
 
 /**
  * 用户注册/登陆站点，需要使用的邀请码

@@ -17,8 +17,8 @@ package com.windchat.im.business.impl;
 
 import java.lang.reflect.Method;
 
-import com.akaxin.site.business.dao.UserGroupDao;
-import com.akaxin.site.business.dao.UserProfileDao;
+import com.windchat.im.business.dao.UserGroupDao;
+import com.windchat.im.business.dao.UserProfileDao;
 import com.windchat.im.business.dao.UserGroupDao;
 import com.windchat.im.business.dao.UserProfileDao;
 import com.windchat.im.storage.bean.GroupProfileBean;
@@ -27,11 +27,11 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.command.Command;
-import com.akaxin.common.command.CommandResponse;
-import com.akaxin.common.constant.CommandConst;
-import com.akaxin.common.constant.ErrorCode2;
-import com.akaxin.common.logs.LogUtils;
+import com.windchat.common.command.Command;
+import com.windchat.common.command.CommandResponse;
+import com.windchat.common.constant.CommandConst;
+import com.windchat.common.constant.ErrorCode2;
+import com.windchat.common.logs.LogUtils;
 
 /**
  *

@@ -21,16 +21,16 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.command.Command;
-import com.akaxin.common.command.CommandResponse;
-import com.akaxin.common.constant.ErrorCode2;
-import com.akaxin.common.logs.LogUtils;
+import com.windchat.common.command.Command;
+import com.windchat.common.command.CommandResponse;
+import com.windchat.common.constant.ErrorCode2;
+import com.windchat.common.logs.LogUtils;
 import com.akaxin.proto.core.FileProto;
 import com.akaxin.proto.site.ApiFileDownloadProto;
 import com.akaxin.proto.site.ApiFileUploadProto;
-import com.akaxin.site.business.impl.AbstractRequest;
-import com.akaxin.site.business.utils.FilePathUtils;
-import com.akaxin.site.business.utils.FileServerUtils;
+import com.windchat.im.business.impl.AbstractRequest;
+import com.windchat.im.business.utils.FilePathUtils;
+import com.windchat.im.business.utils.FileServerUtils;
 import com.google.protobuf.ByteString;
 
 /**

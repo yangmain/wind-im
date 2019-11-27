@@ -15,7 +15,7 @@
  */
 package com.windchat.common.exceptions;
 
-import com.akaxin.common.constant.IErrorCode;
+import com.windchat.common.constant.IErrorCode;
 import com.windchat.common.constant.IErrorCode;
 
 /**

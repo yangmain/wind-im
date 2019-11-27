@@ -22,18 +22,18 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.channel.ChannelManager;
-import com.akaxin.common.channel.ChannelSession;
-import com.akaxin.common.command.Command;
-import com.akaxin.common.command.CommandResponse;
-import com.akaxin.common.command.RedisCommand;
-import com.akaxin.common.constant.CommandConst;
-import com.akaxin.common.constant.ErrorCode2;
-import com.akaxin.common.constant.RequestAction;
-import com.akaxin.common.utils.StringHelper;
+import com.windchat.common.channel.ChannelManager;
+import com.windchat.common.channel.ChannelSession;
+import com.windchat.common.command.Command;
+import com.windchat.common.command.CommandResponse;
+import com.windchat.common.command.RedisCommand;
+import com.windchat.common.constant.CommandConst;
+import com.windchat.common.constant.ErrorCode2;
+import com.windchat.common.constant.RequestAction;
+import com.windchat.common.utils.StringHelper;
 import com.akaxin.proto.core.CoreProto;
 import com.windchat.im.connector.constant.AkxProject;
-import com.akaxin.site.message.service.ImMessageService;
+import com.windchat.im.message.service.ImMessageService;
 
 /**
  * 这里负责下发消息至message模块进行处理

@@ -15,8 +15,8 @@
  */
 package com.windchat.im.message.service;
 
-import com.akaxin.common.command.Command;
-import com.akaxin.site.message.api.IMessageService;
+import com.windchat.common.command.Command;
+import com.windchat.im.message.api.IMessageService;
 
 /**
  * 负责接受所有从connector下来的业务请求，请负责分发

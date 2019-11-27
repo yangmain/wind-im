@@ -1,6 +1,6 @@
 package com.windchat.im.message.bean;
 
-import com.akaxin.common.utils.GsonUtils;
+import com.windchat.common.utils.GsonUtils;
 
 public class WebBean {
 	private String webCode;

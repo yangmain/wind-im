@@ -18,7 +18,7 @@ package com.windchat.common.utils;
 import java.util.UUID;
 import java.util.zip.CRC32;
 
-import com.akaxin.common.crypto.HashCrypto;
+import com.windchat.common.crypto.HashCrypto;
 
 /**
  * <pre>

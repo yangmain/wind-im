@@ -21,10 +21,10 @@ import com.windchat.im.connector.codec.protocol.MessageEncoder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.command.Command;
-import com.akaxin.common.command.CommandResponse;
-import com.akaxin.common.executor.AbstracteExecutor;
-import com.akaxin.common.executor.SimpleExecutor;
+import com.windchat.common.command.Command;
+import com.windchat.common.command.CommandResponse;
+import com.windchat.common.executor.AbstracteExecutor;
+import com.windchat.common.executor.SimpleExecutor;
 import com.windchat.im.connector.codec.protocol.MessageDecoder;
 import com.windchat.im.connector.constant.AkxProject;
 import com.windchat.im.connector.exception.TcpServerException;

@@ -34,12 +34,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.akaxin.common.logs.AkxLog4jManager;
-import com.akaxin.common.utils.GsonUtils;
+import com.windchat.common.logs.AkxLog4jManager;
+import com.windchat.common.utils.GsonUtils;
 import com.akaxin.proto.core.ConfigProto;
 import com.akaxin.proto.core.ConfigProto.ConfigKey;
 import com.akaxin.proto.core.PluginProto;
-import com.akaxin.site.business.impl.site.SiteConfig;
+import com.windchat.im.business.impl.site.SiteConfig;
 import com.windchat.im.web.admin.exception.UserPermissionException;
 import com.google.protobuf.InvalidProtocolBufferException;
 

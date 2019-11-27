@@ -19,11 +19,11 @@ import com.windchat.im.message.group.handler.AbstractGroupHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.command.Command;
-import com.akaxin.common.logs.LogUtils;
+import com.windchat.common.command.Command;
+import com.windchat.common.logs.LogUtils;
 import com.akaxin.proto.core.CoreProto;
 import com.akaxin.proto.site.ImCtsMessageProto;
-import com.akaxin.site.message.group.handler.AbstractGroupHandler;
+import com.windchat.im.message.group.handler.AbstractGroupHandler;
 import com.windchat.im.storage.api.IMessageDao;
 import com.windchat.im.storage.bean.U2MessageBean;
 import com.windchat.im.storage.service.MessageDaoService;

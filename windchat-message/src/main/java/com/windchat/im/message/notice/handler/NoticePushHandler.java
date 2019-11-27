@@ -21,19 +21,19 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.command.Command;
-import com.akaxin.common.constant.CommandConst;
-import com.akaxin.common.logs.LogUtils;
+import com.windchat.common.command.Command;
+import com.windchat.common.constant.CommandConst;
+import com.windchat.common.logs.LogUtils;
 import com.akaxin.proto.client.ImStcNoticeProto;
 import com.akaxin.proto.client.ImStcNoticeProto.NoticeType;
 import com.akaxin.proto.core.ConfigProto;
 import com.akaxin.proto.core.PushProto;
 import com.akaxin.proto.platform.ApiPushNotificationProto;
-import com.akaxin.site.message.dao.ImUserFriendDao;
-import com.akaxin.site.message.dao.ImUserProfileDao;
-import com.akaxin.site.message.push.PushClient;
-import com.akaxin.site.message.threads.MultiPushThreadExecutor;
-import com.akaxin.site.message.utils.SiteConfigHelper;
+import com.windchat.im.message.dao.ImUserFriendDao;
+import com.windchat.im.message.dao.ImUserProfileDao;
+import com.windchat.im.message.push.PushClient;
+import com.windchat.im.message.threads.MultiPushThreadExecutor;
+import com.windchat.im.message.utils.SiteConfigHelper;
 
 public class NoticePushHandler extends AbstractNoticeHandler<Command> {
 	private static final Logger logger = LoggerFactory.getLogger(NoticePushHandler.class);

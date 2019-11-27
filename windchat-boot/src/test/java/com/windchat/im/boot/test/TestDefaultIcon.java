@@ -2,7 +2,7 @@ package com.windchat.im.boot.test;
 
 import java.util.Base64;
 
-import com.akaxin.site.business.utils.FileServerUtils;
+import com.windchat.im.business.utils.FileServerUtils;
 
 public class TestDefaultIcon {
 	public static void main(String args[]) {

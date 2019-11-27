@@ -18,7 +18,7 @@ package com.windchat.im.storage.dao.config;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.akaxin.common.utils.GsonUtils;
+import com.windchat.common.utils.GsonUtils;
 
 /**
  * 

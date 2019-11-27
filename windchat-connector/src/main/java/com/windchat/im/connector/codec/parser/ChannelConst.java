@@ -1,6 +1,6 @@
 package com.windchat.im.connector.codec.parser;
 
-import com.akaxin.common.channel.ChannelSession;
+import com.windchat.common.channel.ChannelSession;
 
 import io.netty.util.AttributeKey;
 

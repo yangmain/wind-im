@@ -21,8 +21,8 @@ import java.util.Set;
 import com.windchat.im.web.admin.service.IGroupService;
 import org.springframework.stereotype.Service;
 
-import com.akaxin.site.business.dao.UserGroupDao;
-import com.akaxin.site.business.impl.site.SiteConfig;
+import com.windchat.im.business.dao.UserGroupDao;
+import com.windchat.im.business.impl.site.SiteConfig;
 import com.windchat.im.storage.bean.GroupMemberBean;
 import com.windchat.im.storage.bean.GroupProfileBean;
 import com.windchat.im.storage.bean.SimpleGroupBean;

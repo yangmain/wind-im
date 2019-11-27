@@ -19,10 +19,10 @@ import com.windchat.im.business.bean.PlatformPhoneBean;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.constant.CommandConst;
+import com.windchat.common.constant.CommandConst;
 import com.akaxin.proto.platform.ApiPhoneConfirmTokenProto;
-import com.akaxin.site.business.bean.PlatformPhoneBean;
-import com.akaxin.site.message.platform.PlatformClient;
+import com.windchat.im.business.bean.PlatformPhoneBean;
+import com.windchat.im.message.platform.PlatformClient;
 
 /**
  * 当注册方式为：实名用户，此时需要向平台验证手机号码是否正确

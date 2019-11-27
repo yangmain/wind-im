@@ -18,10 +18,10 @@ package com.windchat.im.connector.handler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.command.Command;
-import com.akaxin.common.command.CommandResponse;
-import com.akaxin.common.constant.CommandConst;
-import com.akaxin.common.constant.ErrorCode2;
+import com.windchat.common.command.Command;
+import com.windchat.common.command.CommandResponse;
+import com.windchat.common.constant.CommandConst;
+import com.windchat.common.constant.ErrorCode2;
 
 import io.netty.channel.Channel;
 import io.netty.util.concurrent.Future;

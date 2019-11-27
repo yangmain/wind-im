@@ -18,9 +18,9 @@ package com.windchat.im.message.group.handler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.command.Command;
-import com.akaxin.common.command.RedisCommand;
-import com.akaxin.common.constant.CommandConst;
+import com.windchat.common.command.Command;
+import com.windchat.common.command.RedisCommand;
+import com.windchat.common.constant.CommandConst;
 import com.akaxin.proto.client.ImStcMessageProto;
 import com.akaxin.proto.core.CoreProto;
 import com.akaxin.proto.core.CoreProto.MsgType;

@@ -26,8 +26,8 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.logs.LogUtils;
-import com.akaxin.common.utils.StringHelper;
+import com.windchat.common.logs.LogUtils;
+import com.windchat.common.utils.StringHelper;
 import com.akaxin.proto.core.GroupProto;
 import com.windchat.im.storage.bean.GroupMemberBean;
 import com.windchat.im.storage.bean.SimpleGroupBean;

@@ -1,6 +1,6 @@
 package com.windchat.im.storage.exception;
 
-import com.akaxin.common.utils.StringHelper;
+import com.windchat.common.utils.StringHelper;
 
 /**
  * 迁移数据库错误会抛出此异常

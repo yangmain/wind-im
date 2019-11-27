@@ -22,7 +22,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.akaxin.proto.core.ConfigProto;
-import com.akaxin.site.message.dao.SiteConfigDao;
+import com.windchat.im.message.dao.SiteConfigDao;
 
 /**
  * 管理站点配置相关信息

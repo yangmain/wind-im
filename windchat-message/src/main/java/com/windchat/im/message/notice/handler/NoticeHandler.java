@@ -20,14 +20,14 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.channel.ChannelWriter;
-import com.akaxin.common.command.Command;
-import com.akaxin.common.command.CommandResponse;
-import com.akaxin.common.constant.CommandConst;
-import com.akaxin.common.constant.ErrorCode2;
-import com.akaxin.common.logs.LogUtils;
+import com.windchat.common.channel.ChannelWriter;
+import com.windchat.common.command.Command;
+import com.windchat.common.command.CommandResponse;
+import com.windchat.common.constant.CommandConst;
+import com.windchat.common.constant.ErrorCode2;
+import com.windchat.common.logs.LogUtils;
 import com.akaxin.proto.client.ImStcNoticeProto;
-import com.akaxin.site.message.dao.SessionDeviceDao;
+import com.windchat.im.message.dao.SessionDeviceDao;
 
 /**
  * 在线给客户端下发通知命令

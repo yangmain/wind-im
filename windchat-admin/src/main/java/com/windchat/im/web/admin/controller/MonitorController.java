@@ -1,6 +1,6 @@
 package com.windchat.im.web.admin.controller;
 
-import com.akaxin.common.utils.GsonUtils;
+import com.windchat.common.utils.GsonUtils;
 import com.akaxin.proto.core.PluginProto;
 import com.windchat.im.storage.bean.MonitorBean;
 import com.windchat.im.web.admin.common.Timeutils;

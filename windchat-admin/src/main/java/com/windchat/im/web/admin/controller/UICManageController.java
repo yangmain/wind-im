@@ -35,9 +35,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.akaxin.common.utils.GsonUtils;
+import com.windchat.common.utils.GsonUtils;
 import com.akaxin.proto.core.PluginProto;
-import com.akaxin.site.business.impl.site.SiteConfig;
+import com.windchat.im.business.impl.site.SiteConfig;
 import com.windchat.im.storage.bean.UicBean;
 
 //邀请码管理

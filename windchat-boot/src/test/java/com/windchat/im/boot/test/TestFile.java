@@ -4,8 +4,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.akaxin.proto.core.FileProto.FileType;
-import com.akaxin.site.business.utils.FilePathUtils;
-import com.akaxin.site.business.utils.FileServerUtils;
+import com.windchat.im.business.utils.FilePathUtils;
+import com.windchat.im.business.utils.FileServerUtils;
 
 public class TestFile {
 	private static final Logger logger = LoggerFactory.getLogger(TestFile.class);

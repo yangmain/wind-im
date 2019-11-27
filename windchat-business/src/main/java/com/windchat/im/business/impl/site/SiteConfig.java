@@ -29,9 +29,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.akaxin.proto.core.ConfigProto;
-import com.akaxin.site.business.constant.GroupConfig;
-import com.akaxin.site.business.dao.SiteConfigDao;
-import com.akaxin.site.message.utils.SiteConfigHelper;
+import com.windchat.im.business.constant.GroupConfig;
+import com.windchat.im.business.dao.SiteConfigDao;
+import com.windchat.im.message.utils.SiteConfigHelper;
 
 /**
  * 管理站点配置相关信息

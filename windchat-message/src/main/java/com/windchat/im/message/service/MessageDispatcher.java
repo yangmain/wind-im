@@ -19,13 +19,13 @@ import com.windchat.im.message.executor.MessageExecutor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.command.Command;
-import com.akaxin.common.constant.RequestAction;
-import com.akaxin.common.logs.LogUtils;
-import com.akaxin.common.utils.StringHelper;
+import com.windchat.common.command.Command;
+import com.windchat.common.constant.RequestAction;
+import com.windchat.common.logs.LogUtils;
+import com.windchat.common.utils.StringHelper;
 import com.akaxin.proto.core.CoreProto;
 import com.akaxin.proto.site.ImCtsMessageProto;
-import com.akaxin.site.message.executor.MessageExecutor;
+import com.windchat.im.message.executor.MessageExecutor;
 
 public class MessageDispatcher {
 	private static final Logger logger = LoggerFactory.getLogger(MessageDispatcher.class);

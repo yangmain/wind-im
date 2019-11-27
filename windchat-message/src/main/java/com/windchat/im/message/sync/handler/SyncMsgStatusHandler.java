@@ -20,8 +20,8 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.command.Command;
-import com.akaxin.common.logs.LogUtils;
+import com.windchat.common.command.Command;
+import com.windchat.common.logs.LogUtils;
 import com.akaxin.proto.site.ImSyncMsgStatusProto;
 import com.windchat.im.storage.api.IMessageDao;
 import com.windchat.im.storage.bean.GroupMessageBean;

@@ -6,13 +6,13 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
-import com.akaxin.common.command.Command;
-import com.akaxin.common.constant.RequestAction;
+import com.windchat.common.command.Command;
+import com.windchat.common.constant.RequestAction;
 import com.akaxin.proto.core.CoreProto;
 import com.akaxin.proto.core.CoreProto.MsgType;
 import com.akaxin.proto.site.ImCtsMessageProto;
-import com.akaxin.site.message.api.IMessageService;
-import com.akaxin.site.message.service.ImMessageService;
+import com.windchat.im.message.api.IMessageService;
+import com.windchat.im.message.service.ImMessageService;
 
 /**
  * 后台管理发送消息实现

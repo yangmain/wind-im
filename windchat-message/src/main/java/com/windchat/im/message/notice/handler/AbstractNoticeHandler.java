@@ -15,7 +15,7 @@
  */
 package com.windchat.im.message.notice.handler;
 
-import com.akaxin.common.executor.chain.handler.IHandler;
+import com.windchat.common.executor.chain.handler.IHandler;
 
 public abstract class AbstractNoticeHandler<T> implements IHandler<T, Boolean> {
 

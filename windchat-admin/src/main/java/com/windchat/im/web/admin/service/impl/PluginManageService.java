@@ -20,7 +20,7 @@ import java.util.List;
 import com.windchat.im.web.admin.service.IPluginService;
 import org.springframework.stereotype.Service;
 
-import com.akaxin.site.business.dao.SitePluginDao;
+import com.windchat.im.business.dao.SitePluginDao;
 import com.windchat.im.storage.bean.PluginBean;
 
 /**

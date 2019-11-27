@@ -22,10 +22,10 @@ import java.util.concurrent.TimeUnit;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.command.RedisCommand;
-import com.akaxin.common.constant.CommandConst;
-import com.akaxin.common.netty.IRedisCommandResponse;
-import com.akaxin.common.netty.PlatformSSLClient;
+import com.windchat.common.command.RedisCommand;
+import com.windchat.common.constant.CommandConst;
+import com.windchat.common.netty.IRedisCommandResponse;
+import com.windchat.common.netty.PlatformSSLClient;
 import com.akaxin.proto.core.CoreProto;
 import com.google.protobuf.ByteString;
 

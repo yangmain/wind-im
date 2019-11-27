@@ -8,13 +8,13 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.channel.ChannelSession;
-import com.akaxin.common.channel.WebChannelManager;
-import com.akaxin.common.command.Command;
-import com.akaxin.common.command.CommandResponse;
-import com.akaxin.common.constant.CharsetCoding;
-import com.akaxin.common.executor.AbstracteExecutor;
-import com.akaxin.site.business.cache.WebSessionCache;
+import com.windchat.common.channel.ChannelSession;
+import com.windchat.common.channel.WebChannelManager;
+import com.windchat.common.command.Command;
+import com.windchat.common.command.CommandResponse;
+import com.windchat.common.constant.CharsetCoding;
+import com.windchat.common.executor.AbstracteExecutor;
+import com.windchat.im.business.cache.WebSessionCache;
 import com.windchat.im.connector.codec.parser.ChannelConst;
 
 import io.netty.channel.ChannelFuture;

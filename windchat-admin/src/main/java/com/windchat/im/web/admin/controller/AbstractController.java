@@ -17,9 +17,9 @@ package com.windchat.im.web.admin.controller;
 
 import java.util.Map;
 
-import com.akaxin.common.utils.GsonUtils;
+import com.windchat.common.utils.GsonUtils;
 import com.akaxin.proto.core.PluginProto;
-import com.akaxin.site.business.impl.site.SiteConfig;
+import com.windchat.im.business.impl.site.SiteConfig;
 
 public class AbstractController {
 

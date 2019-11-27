@@ -22,9 +22,9 @@ import com.windchat.im.connector.codec.parser.ChannelConst;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.channel.ChannelSession;
-import com.akaxin.common.command.RedisCommand;
-import com.akaxin.common.constant.RequestAction;
+import com.windchat.common.channel.ChannelSession;
+import com.windchat.common.command.RedisCommand;
+import com.windchat.common.constant.RequestAction;
 import com.windchat.im.connector.constant.AkxProject;
 
 import io.netty.buffer.ByteBuf;

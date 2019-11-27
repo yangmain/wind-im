@@ -40,7 +40,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.akaxin.common.utils.StringHelper;
+import com.windchat.common.utils.StringHelper;
 import com.akaxin.proto.core.PluginProto;
 import com.akaxin.proto.core.UserProto.UserStatus;
 import com.windchat.im.storage.bean.SimpleUserBean;

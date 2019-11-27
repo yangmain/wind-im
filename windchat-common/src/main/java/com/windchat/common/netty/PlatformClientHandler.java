@@ -20,8 +20,8 @@ import com.windchat.common.command.RedisCommand;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.command.Command;
-import com.akaxin.common.command.RedisCommand;
+import com.windchat.common.command.Command;
+import com.windchat.common.command.RedisCommand;
 import com.akaxin.proto.core.CoreProto;
 
 import io.netty.channel.ChannelHandlerContext;

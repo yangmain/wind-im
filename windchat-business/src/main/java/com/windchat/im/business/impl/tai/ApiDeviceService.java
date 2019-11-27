@@ -23,16 +23,16 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.command.Command;
-import com.akaxin.common.command.CommandResponse;
-import com.akaxin.common.constant.ErrorCode2;
-import com.akaxin.common.logs.LogUtils;
+import com.windchat.common.command.Command;
+import com.windchat.common.command.CommandResponse;
+import com.windchat.common.constant.ErrorCode2;
+import com.windchat.common.logs.LogUtils;
 import com.akaxin.proto.core.DeviceProto;
 import com.akaxin.proto.site.ApiDeviceBoundListProto;
 import com.akaxin.proto.site.ApiDeviceListProto;
 import com.akaxin.proto.site.ApiDeviceProfileProto;
-import com.akaxin.site.business.dao.UserDeviceDao;
-import com.akaxin.site.business.impl.AbstractRequest;
+import com.windchat.im.business.dao.UserDeviceDao;
+import com.windchat.im.business.impl.AbstractRequest;
 import com.windchat.im.storage.bean.UserDeviceBean;
 
 /**

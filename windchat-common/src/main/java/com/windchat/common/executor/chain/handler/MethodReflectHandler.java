@@ -22,7 +22,7 @@ import com.windchat.common.command.Command;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.command.Command;
+import com.windchat.common.command.Command;
 
 /**
  * @author Sam{@link an.guoyue254@gmail.com}

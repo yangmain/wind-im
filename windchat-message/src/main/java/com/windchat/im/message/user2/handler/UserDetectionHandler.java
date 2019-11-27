@@ -20,14 +20,14 @@ import com.windchat.im.message.dao.ImUserProfileDao;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.command.Command;
-import com.akaxin.common.logs.LogUtils;
-import com.akaxin.common.utils.StringHelper;
+import com.windchat.common.command.Command;
+import com.windchat.common.logs.LogUtils;
+import com.windchat.common.utils.StringHelper;
 import com.akaxin.proto.core.CoreProto;
 import com.akaxin.proto.core.UserProto;
 import com.akaxin.proto.site.ImCtsMessageProto;
-import com.akaxin.site.message.dao.ImUserFriendDao;
-import com.akaxin.site.message.dao.ImUserProfileDao;
+import com.windchat.im.message.dao.ImUserFriendDao;
+import com.windchat.im.message.dao.ImUserProfileDao;
 import com.windchat.im.storage.bean.SimpleUserBean;
 
 /**

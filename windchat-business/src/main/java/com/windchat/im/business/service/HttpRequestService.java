@@ -19,19 +19,19 @@ import com.windchat.im.business.api.IRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.command.Command;
-import com.akaxin.common.command.CommandResponse;
-import com.akaxin.common.constant.CommandConst;
-import com.akaxin.common.constant.ErrorCode2;
-import com.akaxin.common.constant.HttpUriAction;
-import com.akaxin.site.business.api.IRequest;
-import com.akaxin.site.business.impl.hai.HttpFriendService;
-import com.akaxin.site.business.impl.hai.HttpGroupService;
-import com.akaxin.site.business.impl.hai.HttpMessageService;
-import com.akaxin.site.business.impl.hai.HttpPushService;
-import com.akaxin.site.business.impl.hai.HttpSessionService;
-import com.akaxin.site.business.impl.hai.HttpSiteService;
-import com.akaxin.site.business.impl.hai.HttpUserService;
+import com.windchat.common.command.Command;
+import com.windchat.common.command.CommandResponse;
+import com.windchat.common.constant.CommandConst;
+import com.windchat.common.constant.ErrorCode2;
+import com.windchat.common.constant.HttpUriAction;
+import com.windchat.im.business.api.IRequest;
+import com.windchat.im.business.impl.hai.HttpFriendService;
+import com.windchat.im.business.impl.hai.HttpGroupService;
+import com.windchat.im.business.impl.hai.HttpMessageService;
+import com.windchat.im.business.impl.hai.HttpPushService;
+import com.windchat.im.business.impl.hai.HttpSessionService;
+import com.windchat.im.business.impl.hai.HttpSiteService;
+import com.windchat.im.business.impl.hai.HttpUserService;
 
 /**
  * Http请求服务分发

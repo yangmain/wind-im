@@ -17,7 +17,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.utils.PrintUtils;
+import com.windchat.common.utils.PrintUtils;
 import com.windchat.im.storage.connection.DatabaseConnection;
 import com.windchat.im.storage.exception.MigrateDatabaseException;
 import com.windchat.im.storage.exception.NeedInitMysqlException;

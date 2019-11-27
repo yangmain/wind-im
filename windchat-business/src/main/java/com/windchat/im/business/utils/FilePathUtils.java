@@ -18,7 +18,7 @@ package com.windchat.im.business.utils;
 import org.apache.commons.lang3.StringUtils;
 
 import com.akaxin.proto.core.ConfigProto.ConfigKey;
-import com.akaxin.site.business.impl.site.SiteConfig;
+import com.windchat.im.business.impl.site.SiteConfig;
 
 /**
  * 提供站点服务文件路径位置，路径存放在站点配置表中。<br>

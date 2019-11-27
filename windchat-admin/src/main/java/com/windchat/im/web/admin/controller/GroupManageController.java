@@ -36,9 +36,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.akaxin.common.utils.GsonUtils;
+import com.windchat.common.utils.GsonUtils;
 import com.akaxin.proto.core.PluginProto;
-import com.akaxin.site.business.dao.UserProfileDao;
+import com.windchat.im.business.dao.UserProfileDao;
 import com.windchat.im.storage.bean.GroupMemberBean;
 import com.windchat.im.storage.bean.GroupProfileBean;
 import com.windchat.im.storage.bean.SimpleGroupBean;

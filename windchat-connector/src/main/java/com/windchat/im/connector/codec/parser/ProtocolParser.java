@@ -18,9 +18,9 @@ package com.windchat.im.connector.codec.parser;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.akaxin.common.command.RedisCommand;
-import com.akaxin.common.resp.AbstractParameter;
-import com.akaxin.common.resp.RedisBytesParameter;
+import com.windchat.common.command.RedisCommand;
+import com.windchat.common.resp.AbstractParameter;
+import com.windchat.common.resp.RedisBytesParameter;
 import com.windchat.im.connector.codec.protocol.MessageDecoder;
 import com.windchat.im.connector.codec.protocol.ReplaySignal;
 

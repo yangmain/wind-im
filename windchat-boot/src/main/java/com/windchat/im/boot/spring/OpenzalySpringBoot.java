@@ -24,14 +24,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * 	openzaly支持springboot框架，在启动main中会同样启动springboot
  * 
  * 	在maven modules中，springboot会存在启动main中扫描不到其他modules中的package，两种方法解决：
- * 		其一：@SpringBootApplication(scanBasePackages={"com.akaxin.site.*"})
+ * 		其一：@SpringBootApplication(scanBasePackages={"com.windchat.im.*"})
  * 		其二：SpringApplication.run(Class<?>...clazzs ,args),clazzs 把需要加载的主类添加上
  * </pre>
  * 
  * @author Sam{@link an.guoyue254@gmail.com}
  * @since 2018-06-05 19:25:55
  */
-@SpringBootApplication(scanBasePackages = { "com.akaxin.site.*" })
+@SpringBootApplication(scanBasePackages = { "com.windchat.im.*" })
 public class OpenzalySpringBoot {
 
 	public static void main(String[] args) {

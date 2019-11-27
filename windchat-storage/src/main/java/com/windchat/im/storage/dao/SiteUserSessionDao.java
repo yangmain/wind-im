@@ -25,7 +25,7 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.logs.LogUtils;
+import com.windchat.common.logs.LogUtils;
 import com.windchat.im.storage.bean.SimpleAuthBean;
 import com.windchat.im.storage.bean.UserSessionBean;
 import com.windchat.im.storage.connection.DatabaseConnection;

@@ -17,11 +17,11 @@ package com.windchat.im.message.user2.handler;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.akaxin.common.channel.ChannelWriter;
-import com.akaxin.common.command.Command;
-import com.akaxin.common.command.RedisCommand;
-import com.akaxin.common.constant.CommandConst;
-import com.akaxin.common.executor.chain.handler.IHandler;
+import com.windchat.common.channel.ChannelWriter;
+import com.windchat.common.command.Command;
+import com.windchat.common.command.RedisCommand;
+import com.windchat.common.constant.CommandConst;
+import com.windchat.common.executor.chain.handler.IHandler;
 import com.akaxin.proto.client.ImStcMessageProto;
 import com.akaxin.proto.core.CoreProto;
 import com.akaxin.proto.core.CoreProto.MsgType;

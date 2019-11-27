@@ -1,6 +1,6 @@
 package com.windchat.im.storage.bean;
 
-import com.akaxin.common.utils.GsonUtils;
+import com.windchat.common.utils.GsonUtils;
 
 /**
  * 站点token

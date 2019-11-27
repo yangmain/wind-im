@@ -4,9 +4,9 @@ import com.windchat.im.business.dao.UserProfileDao;
 import com.windchat.im.business.impl.site.SiteConfig;
 import org.apache.commons.lang3.StringUtils;
 
-import com.akaxin.common.utils.StringHelper;
-import com.akaxin.site.business.dao.UserProfileDao;
-import com.akaxin.site.business.impl.site.SiteConfig;
+import com.windchat.common.utils.StringHelper;
+import com.windchat.im.business.dao.UserProfileDao;
+import com.windchat.im.business.impl.site.SiteConfig;
 import com.windchat.im.storage.bean.SimpleUserBean;
 
 /**

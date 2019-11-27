@@ -1,6 +1,6 @@
 package com.windchat.im.storage.exception;
 
-import com.akaxin.common.utils.StringHelper;
+import com.windchat.common.utils.StringHelper;
 
 public class MigrateDatabaseException extends Throwable {
 

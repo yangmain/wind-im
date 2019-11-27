@@ -23,7 +23,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import com.akaxin.proto.core.UicProto.UicStatus;
-import com.akaxin.site.business.dao.SiteUicDao;
+import com.windchat.im.business.dao.SiteUicDao;
 import com.windchat.im.storage.bean.UicBean;
 
 @Service

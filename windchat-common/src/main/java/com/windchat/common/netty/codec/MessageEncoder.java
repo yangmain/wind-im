@@ -21,7 +21,7 @@ import com.windchat.common.command.RedisCommand;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.command.RedisCommand;
+import com.windchat.common.command.RedisCommand;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;

@@ -23,14 +23,14 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.command.Command;
-import com.akaxin.common.constant.RequestAction;
+import com.windchat.common.command.Command;
+import com.windchat.common.constant.RequestAction;
 import com.akaxin.proto.core.CoreProto;
 import com.akaxin.proto.site.ImCtsMessageProto;
-import com.akaxin.site.business.constant.NoticeText;
-import com.akaxin.site.business.dao.UserProfileDao;
-import com.akaxin.site.message.api.IMessageService;
-import com.akaxin.site.message.service.ImMessageService;
+import com.windchat.im.business.constant.NoticeText;
+import com.windchat.im.business.dao.UserProfileDao;
+import com.windchat.im.message.api.IMessageService;
+import com.windchat.im.message.service.ImMessageService;
 import com.windchat.im.storage.bean.SimpleUserBean;
 import com.google.protobuf.ByteString;
 

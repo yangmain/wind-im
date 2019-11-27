@@ -6,11 +6,11 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 
-import com.akaxin.common.logs.LogCreater;
-import com.akaxin.common.logs.LogUtils;
+import com.windchat.common.logs.LogCreater;
+import com.windchat.common.logs.LogUtils;
 import com.akaxin.proto.core.ConfigProto;
-import com.akaxin.site.business.impl.site.SiteConfig;
-import com.akaxin.site.message.utils.SiteConfigHelper;
+import com.windchat.im.business.impl.site.SiteConfig;
+import com.windchat.im.message.utils.SiteConfigHelper;
 
 /**
  * 站点配置监听器，定时更新缓存中数据

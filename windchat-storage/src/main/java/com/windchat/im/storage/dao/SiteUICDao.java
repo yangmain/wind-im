@@ -25,8 +25,8 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.logs.LogUtils;
-import com.akaxin.common.utils.StringHelper;
+import com.windchat.common.logs.LogUtils;
+import com.windchat.common.utils.StringHelper;
 import com.windchat.im.storage.bean.UicBean;
 import com.windchat.im.storage.connection.DatabaseConnection;
 import com.windchat.im.storage.dao.sql.SQLConst;

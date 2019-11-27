@@ -17,8 +17,8 @@ import org.apache.commons.cli.ParseException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.utils.PrintUtils;
-import com.akaxin.common.utils.StringHelper;
+import com.windchat.common.utils.PrintUtils;
+import com.windchat.common.utils.StringHelper;
 import com.windchat.im.storage.DataSourceManager;
 import com.windchat.im.storage.dao.config.DBConfig;
 import com.windchat.im.storage.dao.config.DBType;

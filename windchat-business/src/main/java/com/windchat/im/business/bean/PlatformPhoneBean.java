@@ -2,7 +2,7 @@ package com.windchat.im.business.bean;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.akaxin.common.utils.GsonUtils;
+import com.windchat.common.utils.GsonUtils;
 
 public class PlatformPhoneBean {
 

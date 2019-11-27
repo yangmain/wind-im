@@ -5,10 +5,10 @@ import com.windchat.im.connector.ws.handler.WsServerHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.command.Command;
-import com.akaxin.common.command.CommandResponse;
-import com.akaxin.common.executor.AbstracteExecutor;
-import com.akaxin.common.executor.SimpleExecutor;
+import com.windchat.common.command.Command;
+import com.windchat.common.command.CommandResponse;
+import com.windchat.common.executor.AbstracteExecutor;
+import com.windchat.common.executor.SimpleExecutor;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;

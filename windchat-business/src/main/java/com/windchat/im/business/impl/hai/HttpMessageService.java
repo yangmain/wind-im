@@ -19,16 +19,16 @@ import com.windchat.im.business.impl.AbstractRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.command.Command;
-import com.akaxin.common.command.CommandResponse;
-import com.akaxin.common.constant.ErrorCode2;
-import com.akaxin.common.constant.RequestAction;
-import com.akaxin.common.logs.LogUtils;
+import com.windchat.common.command.Command;
+import com.windchat.common.command.CommandResponse;
+import com.windchat.common.constant.ErrorCode2;
+import com.windchat.common.constant.RequestAction;
+import com.windchat.common.logs.LogUtils;
 import com.akaxin.proto.plugin.HaiMessageProxyProto;
 import com.akaxin.proto.site.ImCtsMessageProto.ImCtsMessageRequest;
-import com.akaxin.site.business.impl.AbstractRequest;
-import com.akaxin.site.message.api.IMessageService;
-import com.akaxin.site.message.service.ImMessageService;
+import com.windchat.im.business.impl.AbstractRequest;
+import com.windchat.im.message.api.IMessageService;
+import com.windchat.im.message.service.ImMessageService;
 
 /**
  * 扩展使用的消息服务

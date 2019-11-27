@@ -18,7 +18,7 @@ package com.windchat.im.connector.session;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.utils.StringHelper;
+import com.windchat.common.utils.StringHelper;
 import com.windchat.im.connector.constant.AkxProject;
 import com.windchat.im.storage.api.IPluginDao;
 import com.windchat.im.storage.bean.PluginBean;

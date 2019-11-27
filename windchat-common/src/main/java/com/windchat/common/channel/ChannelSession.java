@@ -15,7 +15,7 @@
  */
 package com.windchat.common.channel;
 
-import com.akaxin.common.constant.RequestAction;
+import com.windchat.common.constant.RequestAction;
 
 import io.netty.channel.Channel;
 

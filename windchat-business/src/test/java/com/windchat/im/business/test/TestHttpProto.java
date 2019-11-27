@@ -2,7 +2,7 @@ package com.windchat.im.business.test;
 
 import java.io.IOException;
 
-import com.akaxin.common.http.ZalyHttpClient;
+import com.windchat.common.http.ZalyHttpClient;
 import com.akaxin.proto.core.PluginProto;
 
 public class TestHttpProto {

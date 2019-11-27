@@ -1,6 +1,6 @@
 package com.windchat.im.web.admin.service.impl;
 
-import com.akaxin.site.business.dao.MonitorDao;
+import com.windchat.im.business.dao.MonitorDao;
 import com.windchat.im.web.admin.service.IMonitorService;
 
 import org.springframework.stereotype.Service;

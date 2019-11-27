@@ -4,8 +4,8 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.akaxin.common.http.ZalyHttpClient;
-import com.akaxin.common.utils.GsonUtils;
+import com.windchat.common.http.ZalyHttpClient;
+import com.windchat.common.utils.GsonUtils;
 import com.squareup.okhttp.FormEncodingBuilder;
 import com.squareup.okhttp.MediaType;
 import com.squareup.okhttp.OkHttpClient;

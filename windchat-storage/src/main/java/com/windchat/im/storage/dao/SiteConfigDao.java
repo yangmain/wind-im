@@ -26,7 +26,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.akaxin.common.logs.LogUtils;
+import com.windchat.common.logs.LogUtils;
 import com.akaxin.proto.core.ConfigProto;
 import com.windchat.im.storage.connection.DatabaseConnection;
 import com.windchat.im.storage.dao.sql.SQLConst;

@@ -21,7 +21,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.akaxin.proto.core.UicProto;
-import com.akaxin.site.business.dao.SiteUicDao;
+import com.windchat.im.business.dao.SiteUicDao;
 import com.windchat.im.storage.bean.UicBean;
 
 /**
