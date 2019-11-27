@@ -2,7 +2,7 @@
 
 PORT=$1
 IS_RESTART=$2
-JAVA_JAR="openzaly-server"
+JAVA_JAR="windchat-server"
 
 ##set tcp port
 if [ -n $PORT ]; then

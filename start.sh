@@ -18,7 +18,7 @@ fi
 #### echo server is starting
 echo "[OK] WindChat is starting  [tcp-port:"$PORT" http-port:"$PORT2"]"
 
-JAVA_JAR="windchat-boot"
+JAVA_JAR="windchat-server"
 PID=$(ps -ef|grep $JAVA_JAR|grep $PORT |head -1| awk '{printf $2}')
 
 ###if server is running, exit and echo error
@@ -29,7 +29,7 @@ if [ $PID > 0 ]; then
     exit
 fi
 
-java -Dsite.port=$PORT -Dhttp.port=$PORT2 -jar openzaly-server.jar >>stdout.log 2>&1 &
+java -Dsite.port=$PORT -Dhttp.port=$PORT2 -jar $JAVA_JAR.jar >>stdout.log 2>&1 &
 
 PID=$(ps -ef|grep $JAVA_JAR|grep $PORT |head -1| awk '{printf $2}')
 
