@@ -137,12 +137,6 @@ WindChat 具有灵活、强大的扩展机制 `(“管理平台” 就是一个�
 * sisishiliu（Akaxin/DuckChat创始人）
 * SAM2O2O
 * childeYin
-* yi.chao
-* lei.yu
-* cuikun
-* alexfanchina
-* Mino0885
-
 
 
 **向我们提问**
