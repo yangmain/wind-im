@@ -47,7 +47,7 @@ public class SQLiteJDBCManager {
 	private static int SITE_DB_VERSION = SQLConst.SITE_DB_VERSION_10;
 	private static String sqliteDriverName = "org.sqlite.JDBC";
 	private static Connection sqlitConnection = null;
-	private static final String DB_FILE_PATH = "openzalyDB.sqlite3";
+	private static final String DB_FILE_PATH = "windchatDB.sqlite3";
 
 	private SQLiteJDBCManager() {
 
@@ -61,7 +61,7 @@ public class SQLiteJDBCManager {
 		loadDatabaseDriver(config.getDbDir());
 
 		if (getDbVersion() < SITE_DB_VERSION) {
-			throw new UpgradeDatabaseException("openzaly-server need to upgrade before run it");
+			throw new UpgradeDatabaseException("windchat-server need to upgrade before run it");
 		}
 
 	}

@@ -54,7 +54,7 @@ public class C3P0PoolSlaveManager extends AbstractPoolManager {
 
 			cpdsList.add(cpds);
 
-			SqlLog.info("openzaly init mysql slave connection pool cpds={}", cpds.toString());
+			SqlLog.info("windchat init mysql slave connection pool cpds={}", cpds.toString());
 		}
 	}
 
