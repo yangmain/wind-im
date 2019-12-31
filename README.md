@@ -142,4 +142,4 @@ WindChat 具有灵活、强大的扩展机制 `(“管理平台” 就是一个�
 **向我们提问**
 
 > 扫码加微信群：
-<img width=100 src="https://images.gitee.com/uploads/images/2019/1231/170452_318770bc_1566564.png">
+<img width=200 src="https://images.gitee.com/uploads/images/2019/1231/170452_318770bc_1566564.png">
