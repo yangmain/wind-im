@@ -69,7 +69,7 @@ public class LogUtils extends LogCreater {
 	public static void dbDebugLog(Logger logger, long startTime, Object result, String sql, Object... objects) {
 		String messagePattern = sql.replace("?", "{}");
 		FormattingTuple format = MessageFormatter.arrayFormat(messagePattern, objects);
-		logger.debug("[openzaly-db] cost:{}ms result:{} sql:{}", System.currentTimeMillis() - startTime, result,
+		logger.debug("[windchat-db] cost:{}ms result:{} sql:{}", System.currentTimeMillis() - startTime, result,
 				format.getMessage());
 	}
 

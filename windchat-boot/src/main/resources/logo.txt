@@ -1,16 +1,3 @@
-
-            / \ 
-          /  .  \  
-          \    .  \   			
-      / \   \     /            _      _  __     _     __  __  ___   _   _ 
-    /  .  \   | /   / \       / \    | |/ /    / \    \ \/ / |_ _| | \ | | 
-  /  .    _ \ /   /  .  \    / _ \   | ' /    / _ \    \  /   | |  |  \| | 
-  \     /   / \ -  .    /   / ___ \  | . \   / ___ \   /  \   | |  | |\  | 
-    \ /   / |   \     /    /_/   \_\ |_|\_\ /_/   \_\ /_/\_\ |___| |_| \_| 
-        /  .  \   \ /    
-        \    .  \           
-          \     /
-            \ /  
-              
- 
-Akaxin is an open source and free proprietary IM software,you can build private openzaly-server for everyone in any server.
+-----------------------------------------------------------------------------------------------------------------
+WindChat is an open source and free proprietary IM software,you can build private IM for everyone in any server.
+-----------------------------------------------------------------------------------------------------------------

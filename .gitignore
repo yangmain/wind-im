@@ -11,4 +11,4 @@ target/
 windchat-server.jar
 site-file/
 site-logs/
-openzaly-server.config
+windchat-boot/openzaly-server.config

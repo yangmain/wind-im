@@ -35,7 +35,7 @@ import com.windchat.common.executor.AbstracteExecutor;
 import com.windchat.common.logs.AkxLog4jManager;
 import com.windchat.common.utils.StringHelper;
 import com.akaxin.proto.core.FileProto.FileType;
-import com.windchat.im.boot.config.AkxProject;
+import com.windchat.im.boot.config.WindProject;
 import com.windchat.im.boot.config.ConfigHelper;
 import com.windchat.im.boot.config.ConfigKey;
 import com.windchat.im.boot.config.ConfigListener;
@@ -219,7 +219,7 @@ public class Bootstrap {
 	private static void setDefaultSystemLogLevel() {
 		// 更新日志级别
 		AkxLog4jManager.setLogLevel(Level.INFO);
-		BootLog.info("{} set system log level={}", AkxProject.PLN, Level.INFO);
+		BootLog.info("{} set system log level={}", WindProject.PLN, Level.INFO);
 	}
 
 	/**
@@ -247,7 +247,7 @@ public class Bootstrap {
 		config.setAdminServerName(PluginArgs.SITE_ADMIN_NAME);
 		config.setAdminIcon(getDefaultIcon(SiteDefaultIcon.DEFAULT_SITE_ADMIN_ICON));
 		config.setParam(PluginArgs.FRIEND_SQUARE, getDefaultIcon(SiteDefaultIcon.DEFAULT_FRIEND_SQUARE_ICON));
-		BootLog.info("{} init datasource config={}", AkxProject.PLN, config.toString());
+		BootLog.info("{} init datasource config={}", WindProject.PLN, config.toString());
 		DataSourceManager.init(config);
 	}
 
@@ -265,7 +265,7 @@ public class Bootstrap {
 			}
 
 		}.start(address, port);
-		BootLog.info("{} start http server {}:{} ok.", AkxProject.PLN, address, port);
+		BootLog.info("{} start http server {}:{} ok.", WindProject.PLN, address, port);
 	}
 
 	/**
@@ -286,7 +286,7 @@ public class Bootstrap {
 			}
 
 		}.start(address, port);
-		BootLog.info("{} start netty server {}:{} ok.", AkxProject.PLN, address, port);
+		BootLog.info("{} start netty server {}:{} ok.", WindProject.PLN, address, port);
 	}
 
 	// websocket for web-im
@@ -309,7 +309,7 @@ public class Bootstrap {
 	// add config listener,timing to update cached config value
 	private static void addConfigListener() {
 		ConfigListener.startListenning();
-		BootLog.info("{} start listener to site-config", AkxProject.PLN);
+		BootLog.info("{} start listener to site-config", WindProject.PLN);
 	}
 
 	// get pic by base64
@@ -321,7 +321,7 @@ public class Bootstrap {
 					FileType.SITE_PLUGIN, null);
 			return fileId;
 		} catch (Exception e) {
-			BootLog.error(StringHelper.format("{} set openzaly-admin default icon error", AkxProject.PLN), e);
+			BootLog.error(StringHelper.format("{} set openzaly-admin default icon error", WindProject.PLN), e);
 		}
 		return "";
 	}

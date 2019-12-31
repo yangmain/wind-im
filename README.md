@@ -16,7 +16,7 @@
 简介
 ----
 
-WindChat 是一款开源免费私有IM聊天软件，原身是Akaxin即时通讯开源软件，由原开发者SAM2O2O个人维护，主要面向企业定制IM。
+WindChat 是一款开源免费私有IM聊天软件，原身是Akaxin即时通讯开源软件，由原开发者SAM2O2O个人维护，主要面向企业定制IM,全端开源，免费。
 
 特性：
 
@@ -40,40 +40,40 @@ WindChat 是一款开源免费私有IM聊天软件，原身是Akaxin即时通讯
     * git clone https://gitee.com/wind-chat/wind-im.git
     
     
-openzlay 0.10.6开始支持personal（个人版）与team版，默认状态下使用personal
+WindChat 开始支持personal（个人版）与team版，默认状态下使用personal
 
 支持的启动参数：`java -jar windchat-server.jar -h`
 
-openzaly Personal版本 命令：
+WindChat Personal版本 命令：
 
     * 版本升级：`java -jar windchat-server.jar -upgrade` ，此命令在服务与sqlite数据库版本不一致时执行，正常情况无需执行
 
     * 启动命令：`java -jar windchat-server.jar`
     
-openzaly Team版本 命令：
+WindChat Team版本 命令：
     
     * 生成Team版本所需配置模版：`java -jar windchat-server.jar -team`
     
-    * 修改配置文件: 上一步会生成 openzaly-server.config 使用mysql数据库需在openzaly-server.config配置文件中配置mysql参数：
+    * 修改配置文件: 上一步会生成 windchat-server.config 使用mysql数据库需在[windchat-server.config]配置文件中配置mysql参数：
                 主库（数据库编码需要设置utf8mb4）：
-                    openzaly.mysql.host=localhost //数据库的地址
-                    openzaly.mysql.port=3306        //数据库端口
-                    openzaly.mysql.database=openzaly    //数据库名称
-                    openzaly.mysql.username=root        //mysql数据库访问用户
-                    openzaly.mysql.password=1234567890  //mysql数据库密码
+                    windchat.mysql.host=localhost //数据库的地址
+                    windchat.mysql.port=3306        //数据库端口
+                    windchat.mysql.database=openzaly    //数据库名称
+                    windchat.mysql.username=root        //mysql数据库访问用户
+                    windchat.mysql.password=1234567890  //mysql数据库密码
                 
                 从库（如果需要使用主从模式，配置这里，不需要从库则不需要配置）数据库编码需要设置utf8mb4：
-                    openzaly.mysql.slave.host=localhost
-                    openzaly.mysql.slave.port=3306
-                    openzaly.mysql.slave.database=openzaly
-                    openzaly.mysql.slave.username=root
-                    openzaly.mysql.slave.password=1234567890
+                    windchat.mysql.slave.host=localhost
+                    windchat.mysql.slave.port=3306
+                    windchat.mysql.slave.database=openzaly
+                    windchat.mysql.slave.username=root
+                    windchat.mysql.slave.password=1234567890
                 
                 其他mysql参数为使用mysql连接池的配置参数，如若涉及性能优化可开启配置项。
                 
-     * 迁移数据库命令：openzaly支持使用者把Personal版本的sqlite中的数据迁移到Team版本的mysql数据库
-                     如果执行这一步需要在openzaly-server.config配置文件中配置：
-                        `openzaly.sqlite.url=openzalyDB.sqlite3` 这里指定sqlite数据库文件的位置
+     * 迁移数据库命令：WindChat支持使用者把Personal版本的sqlite中的数据迁移到Team版本的mysql数据库
+                     如果执行这一步需要在windchat-server.config配置文件中配置：
+                        `windchat.sqlite.url=openzalyDB.sqlite3` 这里指定sqlite数据库文件的位置
                      
                      继续执行迁移命令：
                         `java -jar windchat-server.jar -migrate`
@@ -83,8 +83,9 @@ openzaly Team版本 命令：
 
 **2. 下载客户端**
 
-> * [iOS](https://itunes.apple.com/cn/app/%E9%98%BF%E5%8D%A1%E4%BF%A1/id1346971087?mt=8)
-> * [Android](https://www.akaxin.com)
+> * [Android 等待开源]()
+> * [iOS 等待开源]()
+
 
 **3. 访问站点**
 
@@ -118,15 +119,8 @@ WindChat 具有灵活、强大的扩展机制 `(“管理平台” 就是一个�
 
 你的聊天服务器，将摇身一变，成为一个强大的社交软件平台。
 
-> 扩展机制处于技术预览阶段，如果你希望在自己的业务中开发自己的扩展，可以联系我们（ mail: hi@akaxin.xyz ），我们将免费提供文档与技术答疑。
+> 扩展机制处于技术预览阶段，如果你希望在自己的业务中开发自己的扩展，可以联系我们（ mail: an.guoyue254@gmail.com ），我们将免费提供文档与技术答疑。
 
-以下是我们开发的一个 “校园社交” 的扩展，截图如下：
-
-<p align="center">
-  <img align="center" src="https://raw.githubusercontent.com/akaxincom/faq/master/app_pic/plugin.1.jpeg" width="200"  /> &nbsp; <img align="center" src="https://raw.githubusercontent.com/akaxincom/faq/master/app_pic/plugin.2.jpeg" width="200"  /> &nbsp; <img align="center" src="https://raw.githubusercontent.com/akaxincom/faq/master/app_pic/plugin.3.jpeg" width="200"  /> &nbsp;
-</p>
-
-> 大家可以去 demo.akaxin.com 体验。
 
 
 四、技术贡献者
